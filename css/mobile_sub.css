@@ -1,0 +1,1605 @@
+@charset "utf-8";
+
+.m_subnavi{text-align: center;}
+.m_subnavi ul{max-width: 768px; margin: 0 auto; width: 100%; display: inline-block; border-bottom: 1px solid #ccc; background-color: #eae5e5;}
+.m_subnavi ul li{float: left; width: 49.8%; text-align: center; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;} 
+.m_subnavi ul li a{background-color: #eae5e5; display: block; padding: 10px; color:#636363; text-decoration:none;}
+.m_subnavi ul li a:hover{background-color: #de3d80; color:#fff;}
+
+.m_subnavi_active{background-color: #de3d80 !important; color:#fff !important;}
+
+
+
+
+
+
+/*공통*/
+#m_wrap{overflow:hidden;}
+.msub_container{padding:15px 15px 50px 15px; overflow:hidden; max-width:768px; margin:0 auto;}
+.msub_container img{width:100%;}
+
+
+.subcontent{width:1000px; margin:0 auto 10px auto; position: relative; overflow:hidden;}
+
+.sub_cont1{float:left; width:750px;}
+.subpage_name{font-size: 22px; padding: 35px 0 36px 0; border-bottom: 1px solid #ddd; color: #000; margin-bottom:20px;}
+
+.s_cont{position: relative; padding:30px 0 0 0;}
+
+
+
+.strong{font-weight:bold;}
+
+.mb10{margin-bottom:10px !important;}
+.mb20{margin-bottom:20px !important;}
+.mb30{margin-bottom:30px;}
+.mb50{margin-bottom:50px;}
+.mr0{margin-right:0;}
+
+.p0{padding:0 !important;}
+.pt0{padding-top:2px !important;}
+
+.fl_right{float:right;}
+.fl_left{float:left;}
+
+
+.t_strong{font-weight:bold; background-color: #fdf0f5;}
+.t_strong1{font-weight:bold; color:#000 !important;}
+.t_strong2{font-weight:bold; font-size: 18px !important; color: #d23677; border-bottom: 1px solid #ccc; padding-bottom: 15px;}
+.t_strong3{font-weight:bold; color: #9a154d;}
+
+.t_center{text-align:center; border-right:none !important;}
+.t_left{text-align:left; border-right:none !important;}
+
+.bordernone{border:none !important;}
+.borderl{border-left:none !important;}
+.borderr{border-right:none !important;}
+.borderb{border-bottom:none !important;}
+
+.borderT{border-top:1px solid #ccc;}
+
+
+
+/*------ sub1-------*/
+/*sub1_1 인사말 및 연혁*/
+
+
+/*sub1_2 닥터맘 지점개설*/
+.sub1_2_img1{padding:10px 0;}
+
+.sub1_2cont{padding-bottom:70px;}
+
+.sub1_2_list{
+	display: inline-block; 
+	border: 1px solid #ccc; 
+	margin-bottom: 20px;
+	width:100%;
+	margin-bottom: 7%;
+}
+.sub1_2_li{float: left; width: 49.8%; height: 300px; border-right: 1px solid #ccc;}
+.sub1_2_li h2{text-align: center; color: #d04946; font-size: 15px; padding: 17px 0 17px 0; border-bottom: 1px dotted #828282; margin-bottom: 15px;}
+.sub1_2_li p{text-align: center; margin-bottom: 15px;}
+.sub1_2_liTitle{text-align: center; margin-bottom:5px; font-size:13px;}
+
+.li_bg1{background-image:url(../img/sub1/sub1_2/sub1_2_bg1.jpg); background-repeat:no-repeat; background-position:50% 170px;}
+.li_bg2{background-image:url(../img/sub1/sub1_2/sub1_2_bg2.jpg); background-repeat:no-repeat; background-position:50% 220px;}
+.li_bg3{background-image:url(../img/sub1/sub1_2/sub1_2_bg3.jpg); background-repeat:no-repeat; background-position:50% 220px;}
+
+.sub1_2_list2{}
+.sub1_2_list2 li{
+	line-height: 20px;
+	margin-bottom: 3px;
+	padding-left: 13px;
+	background-image:url(../img/sub1/sub1_2/sub2_1dot.jpg);
+	background-repeat:no-repeat;
+	background-position:5px 9px;
+}
+
+/*sub1_3 인증서 및 자격증*/
+
+
+/*sub1_4 조직도*/
+.sub4_1_txt1{width: 80%; margin: 10px auto 0 auto;}
+.sub4_1_img1{}
+
+/*sub1_5 위치및 연락처*/
+.sub1_5_c{padding:30px 0 100px 0;}
+
+.sub1_5_img1{border:1px solid #d6d6d6;}
+
+.sub1_5_loca{}
+.loca_li{display: inline-block; padding: 15px 0; border-bottom: 1px dotted #ccc; width: 100%;}
+.loca_li:last-child{border-bottom:none;}
+
+.loca_li .loca_icon{float: left; margin-right: 10px; width:15%;}
+.loca_li .loca_info{float: left; width:78%;}
+.loca_info h4{font-size: 15px; padding: 0 0 8px 0;}
+.loca_info .loca_add{font-size: 13px; margin-bottom:4px; color: #656565;}
+
+.loca_txt_strong{font-size: 13px; margin-bottom:4px; color: #464646; font-weight:bold;}
+.loca_txt{font-size: 13px; color: #989898;}
+.txt_normal{color: #989898; margin-left: 10px;}
+
+.loca_info .loca_tell{font-size: 15px; color: #656565;}
+.loca_info .loca_tell li{float:left; margin-right: 10px; font-size:13px;}
+.loca_tell .l_tell{padding-left: 23px; background-image:url(../img/sub1/sub1_5/map_icon1_1.jpg); background-repeat:no-repeat; background-position:0 0;}
+.loca_tell .l_fax{padding-left: 23px; background-image:url(../img/sub1/sub1_5/map_icon1_2.jpg); background-repeat:no-repeat; background-position:0 0;}
+
+.loca_bus{display: inline-block;}
+.loca_bus li{float: left;}
+
+
+
+
+
+.div1{
+	padding-top:5%;
+	padding-bottom:8%;
+}
+
+
+
+
+
+
+
+/*------ sub2-------*/
+/*sub2_1 산후관리사소개*/
+.sub2_1_img1{padding:20px 0 10px 0;}
+
+.sub2_1_btn{text-align: center; margin: 15px 0 30px 0;}
+.sub2_btn{
+	display: inline-block;
+    background-color: #4a4a4a;
+    text-align: center;
+    width: 72%;
+    padding: 6px 10px 8px 10px;
+    color: #fff !important;
+    border-radius: 5px;
+	text-decoration:none;
+}
+
+.sub2_btn:hover{background-color: #de3d80; text-decoration:none;}
+
+
+/*sub2_2 교욱과정*/
+.sub2_2_txtArea{line-height: 22px;}
+.sub2_2_txt_1{}
+
+.sub2_2_txt_2{margin-bottom:10px;}
+.sub2_2_txt_2 li{}
+
+
+
+.sub2_2_tc{}
+.sub2_2_tc_txt{font-size: 14px; font-weight: bold; padding: 10px 0;}
+
+.sub2_2_table{width: 100%; font-size:12px;}
+.sub2_2_table thead{border-top: 2px solid #000;}
+.sub2_2_table tbody{}
+.sub2_2_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 5px; background-color: #cfe9ea;}
+.sub2_2_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 10px 5px;}
+
+.sub2_2_table td ul li{line-height:20px;}
+
+
+
+
+
+/*sub2_3 윤리강령 및 에티켓*/
+.sub2_5_1noTitle{text-align:center; width:40%; margin: 0 auto 20px auto;}
+.sub2_5noLi{padding-bottom:50px;}
+.sub2_5noLi li{margin-bottom:15px;}
+
+.sub2_3_img1_1{margin-bottom:50px;}
+
+
+
+
+
+/*sub2_3 일과표*/
+.sub2_3_tc{padding: 20px 0 100px 0;}
+
+.sub2_3_table{width: 100%; font-size:14px; text-align:center; margin-bottom:30px;}
+.sub2_3_table thead{border-top: 2px solid #000;}
+.sub2_3_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 0; background-color: #cfe9ea;}
+.sub2_3_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px; text-align:left;}
+.sub2_3_table td ul{padding-left: 15px;}
+.sub2_3_table td ul li{list-style: disc;}
+
+.sub2_3_table td ul li{line-height:22px;}
+
+.sub2_3_img1{}
+
+
+/*sub2_4 산후관리사가 되려면?*/
+.sub2_4_img1{
+	border-bottom:2px solid #ccc;
+	padding-bottom:30px; 
+	margin-bottom:30px;
+}
+
+.sub2_btn1{
+	display: inline-block;
+    background-color: #4a4a4a;
+    text-align: center;
+    width: 100%;
+    padding: 12px 0px 14px 0px;
+    color: #fff !important;
+}
+
+.sub2_btn1:hover{
+	background-color: #de3d80;
+	text-decoration:none;
+}
+
+
+
+/*sub2_6 지원하기*/
+.sub2_6_fc{padding: 20px 0 20px 0;}
+.sub2_6_table{width: 100%; font-size:14px; margin-bottom:30px; border-right: 1px solid #ccc;}
+.sub2_6_table textarea{padding:5px; width:94% !important;}
+
+.sub2_6_table tbody{border-top: 2px solid #000;}
+.sub2_6_table th{
+	border-bottom: 1px solid #ccc; 
+	border-left: 1px solid #ccc;
+	padding: 10px 5px;
+	background-color: #fdf0f5;
+	font-size:12px;
+}
+.sub2_6_table td{
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 10px 5px;
+	text-align:left;
+}
+
+.sub2_6_input{
+	border:1px solid #ccc;
+	width: 230px; 
+	padding-left: 8px;
+}
+
+.sub2_6_join{text-align:center;}
+.sub2_6_join input{
+	font-size: 18px; 
+	background-color: #868686; 
+	border: none; 
+	padding: 10px 50px 14px 50px; 
+	color: #fff; 
+	cursor:pointer;
+	width:100%;
+}
+
+.sub2_6_join input:hover,
+.sub2_6_join input:active{
+	background-color: #d2236c;
+}
+
+.sub26_ad{
+	display: inline-block;
+	width: 47%;
+}
+.sub26_ad1{
+	margin-right:2%;
+}
+
+#fwrite .hp_input {
+	border: 1px solid #ccc;
+	width: 40px;
+	padding-left: 8px;
+}
+
+#fwrite .branch_input {
+	border: 1px solid #ccc;
+	width: 75%;
+	padding-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+/*------ sub3-------*/
+/*sub3_1 닥터맘 베이직*/
+.sub3_t{width:50%;}
+
+.sub3_service{}
+.sub3_imgTxt0{padding:10px 0 30px 0;}
+
+.sub3_cont{margin-bottom: 20px;}
+.sub3_stitle{width:50%;}
+.sub3_imgTxt1{}
+.sub3_imgTxt2{width:60%; margin-bottom: 10px;}
+
+.sub3_c_rela{width:100%; display: inline-block;}
+.sub3_contents_l{float:left;}
+.sub3_contents_l li{margin-bottom: 18px;}
+
+.sub3_contents_r{float:right; text-align: right;}
+.sub3_contents_r li{margin-bottom: 18px;}
+
+
+
+.sub3_conIn{}
+.sub3_conIn li{margin-bottom: 6px;}
+.sub3_con_txt{font-size: 12px; line-height: 20px;}
+.sub3_con_txt1{float:left; font-size: 14px; color: #731a1a;}
+
+
+.sub3_bg1{width:301px; height:286px; background-image:url(../img/sub3/sub3_img1.jpg); background-repeat:no-repeat; background-position:0 0; float:left; margin-right: 15px;}
+.sub3_bg2{width:229px; height:266px; background-image:url(../img/sub3/sub3_img2.jpg); background-repeat:no-repeat; background-position:0 0; float:left; margin-right: 20px;}
+.sub3_bg3{width:229px; height:266px; background-image:url(../img/sub3/sub3_img3.jpg); background-repeat:no-repeat; background-position:0 0; float:right; margin-left: 20px;}
+.sub3_bg4{width:229px; height:266px; background-image:url(../img/sub3/sub3_img4.jpg); background-repeat:no-repeat; background-position:0 0; float:left; margin-right: 20px;}
+.sub3_bg5{width:229px; height:266px; background-image:url(../img/sub3/sub3_img5.jpg); background-repeat:no-repeat; background-position:0 0; float:right; margin-left: 20px;}
+.sub3_bg6{width:229px; height:266px; background-image:url(../img/sub3/sub3_img6.jpg); background-repeat:no-repeat; background-position:0 0; float:left; margin-right: 15px;}
+.sub3_bg7{width:229px; height:266px; background-image:url(../img/sub3/sub3_img7.jpg); background-repeat:no-repeat; background-position:0 0; float:left; margin-right: 15px;}
+.sub3_bg8{width:229px; height:266px; background-image:url(../img/sub3/sub3_img8.jpg); background-repeat:no-repeat; background-position:0 0; float:left; margin-right: 15px;}
+
+
+.sub3_con_strong1{font-size: 15px; font-weight: bold; color:#902382;}
+.sub3_con_strong2{font-size: 15px; font-weight: bold; color:#1c712f;}
+.sub3_con_strong3{font-size: 15px; font-weight: bold; color:#203dd2;}
+.sub3_con_strong4{font-size: 15px; font-weight: bold; color:#9c3819;}
+.sub3_con_strong5{font-size: 15px; font-weight: bold; color:#1a37cc;}
+
+
+
+
+
+
+/*sub3_3 닥터맘플러스 관리사명단*/
+.sub3_3_tc{padding: 0 0 30px 0;}
+.sub3_3_tc_title{
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	background-image:url(../img/sub3/sub3_5/sub3_5title.jpg);
+	background-position:0 2px;
+	background-repeat:no-repeat;
+}
+
+.sub3_3_table{width: 100%; font-size:12px; text-align:left; margin-bottom:10px;}
+.sub3_3_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 1px solid #000; padding: 10px 7px; letter-spacing: 0; line-height:22px;}
+
+.sub3_3_txt1{line-height:22px; font-size:14px;}
+
+
+
+
+
+
+/*sub3_4 명품플러스 관리사명단*/
+.sub3_4bg1{background-color: #eacfdb; padding: 7px; position: relative;}
+.sub3_4bg2{background-color: #fff; border-radius: 10px;}
+.sub3_4cont{display: inline-block;}
+
+.sub3_4_table{width: 57%; font-size:12px; text-align:left; float:left;}
+.sub3_4_table td{padding: 7px 3px; letter-spacing: -1px; line-height:22px;}
+
+.sub3_4_table td.title{width:32%}
+.sub3_4_table td.dot{width:1%;}
+.sub3_4_table td.name{width:70%;}
+
+.sub3_4_list{width:100%; display: inline-block; padding-bottom:50px;}
+.sub3_4_list li{width:100%; float:left; margin-bottom:20px;}
+
+.sub3_4photo{
+	width:85px;
+	height:95px;
+	background-image:url(../img/sub3/sub3_premPho.jpg);
+	background-repeat:no-repeat;
+	background-position:-14px 2px;
+	float:left;
+	border-right:1px dashed #ccc;
+	margin-top:7px;
+	margin-right:5px;
+}
+
+.ribon{position: absolute; top:0; left:0;}
+
+
+
+
+
+
+/*sub3_5 닥터맘 Global Service*/
+.sub3_5_tc{padding: 20px 0 30px 0;}
+.sub3_5_tc_title{
+	font-size: 15px;
+	margin-bottom: 10px;
+	padding-left: 10px; 
+	background-image:url(../img/sub3/sub3_5/sub3_5title.jpg);
+	background-position:0 0px;
+	background-repeat:no-repeat;
+}
+
+.sub3_5_table{
+	width: 100%; 
+	font-size:12px;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.sub3_5_table thead{border-top: 2px solid #000;}
+.sub3_5_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 10px 0; background-color: #cfe9ea;}
+.sub3_5_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 10px 3px; letter-spacing: 0;}
+
+.sub3_5_table td ul li{line-height:20px; text-align:left;}
+.sub3_5_txt1{line-height:20px; font-size:12px;}
+
+
+
+
+/*sub3_6 바우처*/
+.sub3_6_tc{padding: 20px 0 0px 0;}
+.sub3_6_tc_title{
+	font-size: 15px;
+	margin-bottom: 10px;
+	padding-left: 10px; 
+	background-image:url(../img/sub3/sub3_5/sub3_5title.jpg);
+	background-position:0 1px; 
+	background-repeat:no-repeat;
+}
+
+.sub3_6_table{width: 100%; font-size:12px; text-align:center; margin-bottom:10px;}
+.sub3_6_table thead{border-top: 2px solid #000;}
+.sub3_6_table th{
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 7px 0;
+	background-color: #cfe9ea;
+}
+.sub3_6_table td{
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 5px;
+	letter-spacing: 0;
+}
+
+.sub3_6_table td .underLine{text-decoration:underline; display: block;}
+
+.sub3_6_table td ul li{line-height:20px; text-align:left;}
+.sub3_6_txt1,.sub3_6_txt2{
+	line-height:20px; 
+	font-size:12px; 
+	margin-bottom:3px;
+}
+
+.char_tableBtn{
+	display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff !important;
+    background-color: #dc4a82;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.char_tableBtn:hover{text-decoration:none;}
+
+.sub3_5_list1{float:left; width:100%;}
+.sub3_5_list2{float:left;}
+
+.sub3_6cont{font-size:12px; padding:10px 0;}
+.sub3_6cn{padding-bottom:20px;}
+.sub3_6cn h3{margin-bottom:10px;}
+.sub3_6cn ul li{line-height:20px; color:#6b6b6b;}
+
+.sub3_6cn_list1{margin-bottom:15px;}
+.sub3_6cn_title{font-weight: bold;}
+
+/*중간테이블*/
+.sub3_6td{padding:10px 0;}
+
+.sub3_6_t{width: 100%; font-size:12px; text-align:center; margin-bottom:10px;}
+.sub3_6_t thead{border-top: 2px solid #000;}
+.sub3_6_t th{border-bottom: 1px solid #ccc; border-right: 1px solid #fff; border-left: 1px solid #ccc; padding: 5px 0; background-color: #dcdcdc;}
+.sub3_6_t td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 5px 2px; letter-spacing: 0;}
+
+.t6_strong{font-weight:bold; background-color: #f3eef0;}
+
+.sub3_6cn_list2{margin-bottom:12px;}
+
+
+
+
+
+
+
+
+
+/*------ sub4-------*/
+/*sub4_0 이용요금*/
+.tab_sub4_title{overflow:hidden; padding: 0px 0 50px 0;}
+
+.tab_sub4_title li{
+	float:left;
+	border:1px solid #ccc;
+	margin-right:5px; 
+	width: 49.2%;
+}
+.tab_sub4_title li:last-child{margin-right:0;}
+
+.tab_sub4_title li a{
+	font-size:12px;
+	background:#e4e4e4;
+	color:#090909;
+	cursor:pointer;
+	display:block;
+	text-align:center;
+	height:33px;
+	line-height:34px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.tab_sub4_title li a.active{background:#179bd9; color:#fff;}
+
+.sub4_0_tab_title{
+	font-size: 15px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	background-image:url(../img/sub3/sub3_5/sub3_5title.jpg);
+	background-position:0 0px;
+	background-repeat:no-repeat;
+	float: left;
+	margin-right: 12px;
+	width:50%;
+	margin-top: 4px;
+}
+
+.detail_view_btn{
+	float: right;
+	margin-top: 6px; 
+	margin-bottom:10px;
+}
+
+.detail_view_btn a{
+	background-color: #5cbdea; 
+	color:#fff; 
+	padding: 5px 10px; 
+	border-radius: 2px; 
+	text-decoration: none;
+}
+
+.sub4_0_tab_txt1{font-size:12px; line-height:18px; display: inline-block; margin-bottom:20px;}
+
+.tabcont{margin-bottom: 20px; display: inline-block;}
+
+
+.sub4_0_tc{padding: 0 0 5px 0;float: left;width: 100%;}
+.sub4_0_tc_txt1{font-size:13px; margin-bottom:5px;}
+.sub4_0_tc_txt2{color:#5d5d5d; margin-bottom:20px;}
+
+.sub4_0_table{width: 100%; font-size:12px; text-align:center; margin-bottom:10px;}
+.sub4_0_table thead{border-top: 2px solid #000;}
+.sub4_0_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 12px 0; background-color: #cfe9ea;}
+.sub4_0_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 10px; letter-spacing: 0;}
+
+/*2번째 탭*/
+.tab2_ul li{line-height:20px;}
+
+
+/*셀렉박스 디자인*/
+.sub4_select{display: inline-block; width:100%;}
+.sub4_srf{padding-bottom: 20px; border-bottom: 1px solid #ccc; margin-bottom: 30px;}
+
+.sub4_li{
+	display: inline-block;
+	float:left; 
+	width:100%; 
+	margin-bottom:10px;
+}
+
+.sub4_li li{float:left;}
+
+.sub4_li li.sub4_li_title{
+	font-size: 13px; 
+	font-weight: bold; 
+	color: #0e76a6; 
+	margin-top: 16px;
+	margin-right: 10px;
+}
+
+.sub4_li li.sub4_li_inp{font-size: 13px; width:78%;}
+.sub4_sr{
+	-webkit-appearance:none;   /*네거티브 외형 감추기*/
+	-moz-appearance:none;
+	appearance:none;
+	background-image:url(../img/sub4/sub4_selct.jpg);
+	background-repeat:no-repeat;
+	background-position:100% 0px;
+	background-color:#fff;
+
+	width:100%;
+	padding:9px 7px 9px 7px;
+	border:5px solid #4cafde;
+	font-weight:bold;
+	height: inherit !important;
+}
+
+.sub4_sr::-ms-expand{display:none;}/*익스10,11버전에서 바뀐거 보이게 하기*/
+/*셀렉박스 디자인*/
+
+
+.sub4_baby_title{display: inline-block; width:100%; margin-bottom:30px;}
+
+.sub4_baby_txt{float:right; font-size: 13px; line-height: 25px;}
+
+
+
+
+
+/*sub3_7 이용약관*/
+.sub3_7txt1{font-size: 14px; font-weight:bold; margin-bottom: 5px; padding-top:20px}
+.sub3_7txtarea{padding: 8px; width: 96%; border: 1px solid #ccc; margin-bottom: 30px; font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+/*sub4_1*/
+/*sub4_1 온라인 예약*/
+.sub4_1title1{padding-top:10px; width:50%;}
+.sub4_1txt1{font-size:12px; color:#2b2b2b; margin-bottom:20px;}
+.sub4_1img1{margin-bottom:20px;}
+
+.sub4_1bg{
+	height:126px;
+	background-image:url(../img/sub4/sub4_1/sub4_1_imgBG2.jpg);
+	background-repeat:no-repeat;
+	background-position: -40px 0px;
+	position: relative; 
+	margin-bottom:20px;
+}
+.sub4_acc{font-size: 12px; font-weight: bold; color: #847a76; float: right; margin-top: 45px; margin-right: 15px; line-height: 18px;}
+.sub4_acc1{display: block;}
+
+.sub4_1cont{display: inline-block; margin-bottom:80px;}
+.sub4_1cont li{
+	float:left; 
+	width: 38%;
+	text-align: center; 
+	margin-right:30px;
+}
+
+.sub4_1cont li a{display: block;}
+.sub4_1cont li a p{
+	font-size:15px;
+	font-weight:bold;
+	margin-top:17px;
+	color: #636363;
+}
+
+.sub4_1cont li a img{
+	border-radius: 100%;
+	border: 4px solid #de3d80;
+    box-shadow: 2px 1px 3px 1px rgba(0, 0, 0, 0.61);
+	background-color: #000;
+}
+
+.sub4_1cont li a:hover{text-decoration:none; color:#d23677;}
+
+.sub4_1cont li a img:hover{
+	border: 4px solid #d23677;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.61);
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+/*sub4_1_1 산후도우미 온라인 예약*/
+.sub4_1_fc{padding: 0px 0 50px 0;}
+.sub4_1_table{width: 100%; font-size:12px; margin-bottom:30px; border-right: 1px solid #ccc;}
+
+.sub4_1_table tbody{border-top: 2px solid #000;}
+.sub4_1_table th{border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; padding: 10px 0; background-color: #fdf0f5;}
+.sub4_1_table td{
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc; 
+	padding: 15px 10px;
+	text-align:left;
+}
+
+
+
+/*폼 공통양식*/
+.sub4_1_input{
+	border:1px solid #ccc; 
+	height: 24px; 
+	padding-left: 8px;
+	width:95%; 
+	height:30px;
+	background-color:#fff !important;
+}
+
+.sub4_1_input_tell{
+	border:1px solid #ccc;
+	height: 24px;
+	padding-left: 8px; 
+	width: 42%;
+}
+.sub4_1_input_b{
+	border:1px solid #ccc;
+	width:95%;
+	height: 24px; 
+	padding-left: 8px;
+}
+.sub4_1_input_ab{
+	border:1px solid #ccc;
+	width:83%;
+	height: 24px; 
+	padding-left: 8px;
+}
+.sub4_1_input_s{border:1px solid #ccc; width:40px; height: 24px; padding-left: 8px;}
+.sub4_1_select{
+	border:1px solid #ccc; 
+	height: 26px;
+	padding-left: 2px;
+	width:100%;
+}
+.sub4_1_select_branch{border:1px solid #ccc; height: 26px; padding-left: 2px; width:140px;}
+.sub4_1_select_service1{border:1px solid #ccc; height: 26px; padding-left: 2px; width:90px;}
+.sub4_2_select_service1{border:1px solid #ccc; height: 26px; padding-left: 2px; width:175px;}
+
+.hasDatepicker{border:1px solid #ccc; height: 24px; padding-left: 8px; margin-right:5px;}/*달력 인풋*/
+.ui-datepicker-trigger{
+	width:16px !important;
+	height:15px;
+}
+
+
+.fild_1_agree{display: inline-block;}
+.fild_1_agree input{display: block; float: left; margin-right: 7px;}
+.fild_1_agree label{float: left; color:#f00; width:84%;}
+
+
+
+/*4_1_1 폼양식*/
+.sub4_1_tell{
+	display: inline-block;
+    width: 100%;
+}
+.sub4_1_tell li{
+	display: inline-block; 
+	width:75%; 
+	float:left;
+}
+.sub4_1_tell li:first-child{
+	margin-right:4px;
+	width: 10%;
+}
+.hypn{margin:0 5px;}
+.sub4_1_tell li:last-child{
+	width: 12%;
+}
+
+
+
+.sub4_1add_btn{border: none; background-color: #272727; padding: 4px 8px 6px 8px; color: #c5c5c5; border-radius: 3px; margin-left:5px; cursor:pointer;}
+.sub4_1_add li{margin-bottom:6px;}
+.sub4_1_add li:last-child{margin-bottom:0;}
+
+.sub4_1addTxt{margin-left:6px; color:#717171;}
+
+.sub41_sms{
+	display: inline-block;
+	margin-right:20px;
+}
+
+
+.sub4_1_delivery{display: inline-block;}
+
+
+
+.sub4_1_coop{display: inline-block;}
+.sub4_1_coop li label{margin-left:3px;}
+
+
+
+
+.sub4_1_service3{display: inline-block;}
+.sub4_1_service3 li{margin-bottom: 10px;}
+.sub4_1_service3 li:last-child{margin-bottom:0;}
+
+.sub4_1_service3_1{display: inline-block;}
+.sub4_1_service3_1 li{float:left; margin-right:0px;}
+
+.sub4_1_service3_2{display: inline-block;}
+.sub4_1_service3_2 li{float:left; margin-right:0px;}
+
+
+
+
+.sub4_1_cctv{
+	display: inline-block;
+	width: 100%;
+}
+.sub4_1_cctv li{
+	float: left;
+	margin-right: 20px;
+}
+
+.sub41_cctvYN{}
+.sub41_cctvYN input{
+	width:13px !important;
+	height:13px;
+}
+
+
+.sub41_cctvList{
+	margin-top: 5px;
+}
+.sub4_1_cctv li:last-child{
+	margin-right:0;
+}
+.sub4_1_cctv li:last-child input{width:70%;}
+
+.sub4_1_cctv li label{margin-left:3px;}
+
+
+
+
+.fild_1{margin-bottom:20px;}
+.fild_1_title{font-size: 15px; font-weight: bold; margin-bottom: 5px; display: block;}
+.fild_1_tex{padding: 8px; width: 95%;; border: 1px solid #ccc; margin-bottom:5px;}
+
+
+/*짝수*/
+.sub4_1_1_list_btn{text-align:center;}
+.sub4_1_1_list_btn li{
+	display: inline-block; 
+	margin:0 2px;
+	width:100%;
+}
+
+.sub4_1_1_list_btn li:nth-child(even) > input{background-color: #d2236c;}
+
+.sub4_1_1_list_btn input{
+	font-size: 15px;
+    font-weight: bold;
+    background-color: #333;
+    border: none;
+    padding: 10px 15px 14px 15px;
+    color: #fff;
+    cursor: pointer;
+	width:100%;
+}
+.sub4_1_1_list_btn input:hover,.sub4_1_1_list input:active{background-color: #d2236c;}
+
+
+/*홀수*/
+.sub4_1_1_list_btn1{text-align:center;}
+.sub4_1_1_list_btn1 li{display: inline-block; margin:0 2px;}
+
+.sub4_1_1_list_btn1 li:first-child > input{background-color: #d2236c;}
+
+.sub4_1_1_list_btn1 input{
+	font-size: 15px;
+    font-weight: bold;
+    background-color: #868686;
+    border: none;
+    padding: 10px 15px 14px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.sub4_1_1_list_btn1 input:hover,.sub4_1_1_list input:active{background-color: #d2236c;}
+
+
+
+
+
+
+/*4_1_2 폼양식*/
+
+
+.sub4_1_add li{margin-bottom:6px;}
+.sub4_1_add li:last-child{margin-bottom:0;}
+
+.sub4_1addTxt{margin-left:6px; color:#717171;}
+
+
+
+
+.sub4_1_delivery{display: inline-block;}
+.sub4_1_delivery li{
+	float: left; 
+	margin-right:20px;
+}
+.sub4_1_delivery li label{margin-left:3px;}
+
+
+
+.sub4_1_coop{display: inline-block;}
+.sub4_1_coop li{
+	float: left;
+	margin-right: 20px;
+}
+
+
+
+
+.sub4_1_service3{display: inline-block;}
+.sub4_1_service3 li{margin-bottom: 10px;}
+.sub4_1_service3 li:last-child{margin-bottom:0;}
+
+.sub4_1_service3_1{display: inline-block;}
+.sub4_1_service3_1 li{float:left; margin-right:20px;}
+
+.sub4_1_service3_2{display: inline-block;}
+.sub4_1_service3_2 li{float:left; margin-right:20px;}
+
+
+
+
+.fild_1_n{}
+.fild_1_title{font-size: 15px; font-weight: bold; margin-bottom: 5px; display: block;}
+.fild_1_tex_n{padding: 8px; width: 93%; border: 1px solid #ccc;}
+
+
+
+
+
+
+
+/*sub4_1 서비스 요금 모두보기*/
+.sub4_2txt1{font-size: 12px; padding: 40px 0 20px 0;}
+
+.sub4_2cont1{margin-bottom: 30px;}
+.sub4_2cont1 h3{}
+
+.store_list{display: inline-block; width: 100%;}
+.store_li{
+	float: left;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	margin-left:-1px;
+	width:33%;
+}
+
+
+.store_li_bg1{
+	background-image:url(../img/sub4/sub4_2/u1.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 20px;
+}
+.store_li_bg2{
+	background-image:url(../img/sub4/sub4_2/u2.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 20px;
+}
+.store_li_bg3{
+	background-image:url(../img/sub4/sub4_2/u3.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 20px;
+}
+.store_li_bg4{
+	background-image:url(../img/sub4/sub4_2/u4.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 20px;
+}
+.store_li_bg5{
+	background-image:url(../img/sub4/sub4_2/u5.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 20px;
+}
+.store_li_bg6{
+	background-image:url(../img/sub4/sub4_2/u6.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 20px;
+}
+.store_li_bg7{
+	background-image:url(../img/sub4/sub4_2/u7.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 20px;
+}
+.store_li_bg8{
+	background-image:url(../img/sub4/sub4_2/u8.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 20px;
+}
+
+
+.store_li a{display: block; text-decoration:none; position: relative; font-size: 14px; font-weight: bold; color: #717171;}
+.store_li a:hover{color:#000;}
+
+
+.sli1{height:140px;}
+
+
+.store_list2{text-align: center; padding-top: 80px;}
+.store_list2 li{display: inline-block; padding-left: 10px;}
+.store_list2 li:first-child{background-image:none; padding-left: 0;}
+
+.list2_gb1{
+	background-image:url(../img/sub4/sub4_2/e1.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+}
+.list2_gb2{
+	background-image:url(../img/sub4/sub4_2/e2.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+}
+.list2_gb3{
+	background-image:url(../img/sub4/sub4_2/e3.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+}
+.list2_gb4{
+	background-image:url(../img/sub4/sub4_2/e4.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+}
+.list2_gb5{
+	background-image:url(../img/sub4/sub4_2/e5.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+}
+.list2_gb6{
+	background-image:url(../img/sub4/sub4_2/e6.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+}
+.list2_gb7{
+	background-image:url(../img/sub4/sub4_2/e7.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 5px;
+}
+
+
+
+.store_more{color: #737373; text-align:center; font-size:12px; padding-bottom:15px;}
+
+
+
+
+
+
+
+
+
+
+
+/*------ sub5-------*/
+/*sub5_1 닥터맘뉴스*/
+.sub5_1_fc{padding: 0px 0 0px 0;}
+
+.sub5_1_table{width: 100%; font-size:12px; text-align:center; margin-bottom:20px;}
+.sub5_1_table thead{border-top: 2px solid #333; border-bottom: 2px solid #333;}
+.sub5_1_table th{
+	border-bottom: 1px solid #ccc; 
+	padding: 10px 5px;
+}
+.sub5_1_table td{border-bottom: 1px solid #ccc; padding: 10px 5px; letter-spacing: 0;}
+.sub5_1_table td a{
+
+}
+.sub5_1_table td img{margin-right:3px;}
+
+.sub5_borad_name{text-align:left;}
+.borad_file{
+	width:13px;
+	height:13px;
+	background-image:url(../img/sub5/file_icon.jpg);
+	background-position:0 0px;
+	background-repeat:no-repeat;
+	display: inline-block;
+	margin-left:5px;
+}
+.borad_lock{
+	width:13px;
+	height:13px;
+	background-image:url(../img/sub5/lock_icon.jpg);
+	background-position:0 0px;
+	background-repeat:no-repeat;
+	display: inline-block;
+	margin-left:5px;
+}
+
+.sub5_1_table td ul li{line-height:22px; text-align:left;}
+
+.board_ft{text-align: center; margin-bottom: 20px;}
+.board_list{display: inline-block; margin-top:2px;}
+.board_list li{
+	display: inline-block; 
+	margin: 0 2px;
+	vertical-align: middle;
+}
+
+.board_list li a{
+	color: #0c0c0c;
+    display: block;
+    width: 22px;
+    height: 22px;
+    line-height: 21px;
+    border: 1px solid #e0e0e0;
+	border-radius:2px;
+}
+
+.board_list li a img{
+	width: 50%; 
+	margin-top:5px;
+	margin-left: 1px;
+}
+
+
+.pprev{}
+.pprev a{background-color: #fff !important;}
+.prev{margin-right: 5px !important;}
+.prev a{background-color: #fff !important;}
+
+.nnext{}
+.nnext a{background-color: #fff !important;}
+.next{margin-left: 5px !important;}
+.next a{background-color: #fff !important;}
+
+.board_list .board_strong{
+	color: #fff;
+    background-color: #de3d80;
+	border: 1px solid #de3d80;
+	border-radius:2px;
+    width: 22px;
+    height: 22px;
+    line-height: 21px;
+    vertical-align: middle;
+}
+
+
+.board_list_btn{
+	display: inline-block;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.board_list_btn a{
+	display: inline-block;
+	border:1px solid #333;
+	background-color: #333;
+    width: 48%;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+	color:#fff;
+}
+
+.board_list_btn a:hover{
+	background-color: #de3d80; 
+	border:1px solid #de3d80;
+	color:#fff;
+	text-decoration:none;
+}
+
+
+.board_search{text-align: center;}
+.board_search li{display: inline-block;}
+
+
+.sub5_1_select{
+	border:1px solid #ccc; 
+	height: 26px;
+	padding-left: 2px;
+	background-color: #fff;
+	width:80px;
+}
+
+.sub5_1add_btn{
+	border: 1px solid #b5b5b5;
+    background-color: #d4d4d4;
+    height: 32px;
+    padding: 0 12px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+
+
+
+/*sub5_1 이용후기*/
+.board_list_btn li{float:left; margin-right:5px;}
+.board_list_btn li:last-child{margin-right:0;}
+.board_list_btn li a{text-decoration:none;}
+
+
+
+/*sub5_4 닥터맘갤러리*/
+.board_gall{}
+.gall_list{display: inline-block; width: 100%; border-bottom: 1px solid #dadada; margin-bottom: 20px;}
+.gall_list li{float: left; width: 48%; margin-right: 10px; margin-bottom: 30px;}
+.gall_list li:nth-child(2n){margin-right:0;}
+
+.gall_list li a{
+	display: block;
+	text-decoration:none;
+	color:#5d5d5d;
+	font-weight: bold;
+    margin-top: 5px;
+}
+
+.gall_list li a:hover{color:#d23677;}
+
+.gall_list li a .gall_txt{display: block; padding-top: 7px; width: 90%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+
+
+
+/*sub5_6 이벤트*/
+.board_gall{}
+.gall_list2{display: inline-block; width: 750px; border-bottom: 1px solid #dadada; margin-bottom: 20px;}
+.gall_list2 li{float: left; width: 230px; margin-right: 12px; margin-bottom: 40px; padding: 5px; border: 1px solid #cecece;}
+.gall_list2 li a{display: block; text-decoration:none; color:#5d5d5d;}
+.gall_list2 li a:hover{color:#d23677;}
+
+.gall_list2 li a .gall_txt{
+	display: block;
+	padding: 10px 0 15px 0;
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/*------ sub6-------*/
+/*sub6_1 지사소개*/
+.sub6_1_list{width:100%; display: inline-block; padding-bottom:30px;}
+.sub6_1_list li{width: 100%; display: inline-block; padding: 40px 0; border-bottom: 1px dashed #ccc;}
+.sub6_1_list li:last-child{border-bottom:none;}
+
+.sub6_1bg{display: inline-block; width:100%;}
+.sub6_1cont{display: inline-block; width:100%;}
+
+.sub6_1pt{width: 30%; float: left;}
+.sub6_1pt img{border-radius: 100%; border: 3px solid #ccc;}
+
+.sub6_1_table{width: 60%; font-size:13px; text-align:left; float:right;}
+.sub6_1_table td{padding-top:7px; line-height:20px; vertical-align: top; font-size: 14px;}
+
+
+
+
+
+/*sub6_2 위치및 연락처*/
+.sub6_2_c{}
+
+.sub6_2title{
+	background-image:url(../mobile/img/sub6/sub6_2/sub6_2icon.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	padding-left: 35px;
+	font-size: 16px;
+	height: 30px;
+	padding-top: 5px;
+}
+.sub6_2txt1{padding-left: 37px; font-size: 13px; color: #545454; margin-bottom: 30px;}
+
+.sub6_2btnList{display: inline-block; width: 100%; font-size: 13px; margin-bottom: 20px;}
+.sub6_2btnList li{float:left; margin-right:1px; margin-bottom: 1px; width:33%;}
+.sub6_2btnList li a{background-color: #d8d8d8; width: 100%; display: block; text-align: center; padding: 10px 0;}
+.sub6_2btnList li a:hover,.sub6_2btnList li a:active{background-color: #d83176; color:#fff; font-weight:bold; text-decoration:none;}
+
+
+
+
+
+.sub6_t2{}
+.sub6_t2_li{display: inline-block; width:100%; margin-bottom: 30px;}
+.sub6_t2_li li{float:left; width: 49%; border-bottom: 1px dotted #ccc; border-right: 1px dotted #ccc; padding: 5px 0;}
+.sub6_t2_li li:nth-child(even){border-right: none;}
+.sub6_t2_li li a{
+	font-size:12px;
+	font-weight:bold;
+	line-height:20px;
+	padding-left:15px;
+}
+.sub6_t2_li li a:hover{text-decoration:none; color:#d83176;;}
+
+
+
+
+
+
+.sub6_2_img1{border:1px solid #d6d6d6; margin-bottom: 30px;}
+.sub6_2_img1 img{}
+
+
+.sub6_2_tc{padding: 0 0 30px 0;}
+
+.sub6_2_table{width: 100%; font-size:12px; text-align:left; margin-bottom:10px;}
+.sub6_2_table td{
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #000;
+	border-left: 1px solid #ccc;
+	padding: 10px 5px; 
+	letter-spacing: -1px; 
+	line-height:22px;
+}
+
+
+
+
+
+
+
+
+/*------ sub7-------*/
+/*sub7_1 모유수유 전문가란?*/
+
+
+
+
+
+
+
+/*sub7_2 모유수유 전문가 패키지*/
+.sub7_2inrto{line-height:20px;}
+
+.sub7_2_tc{padding: 20px 0 0px 0;}
+.sub7_2_tc_title{font-size: 15px; margin-bottom: 10px; padding-left: 10px; background-image:url(../img/sub3/sub3_5/sub3_5title.jpg); background-position:0 4px; background-repeat:no-repeat;}
+
+.sub7_2_table{width: 100%; font-size:12px; text-align:center; margin-bottom:40px;}
+.sub7_2_table thead{border-top: 2px solid #000;}
+.sub7_2_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 0; background-color: #cfe9ea;}
+.sub7_2_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 8px; letter-spacing: 0;}
+
+
+
+
+/*sub7_3 프로그램*/
+.sub7_3_tc{padding: 0 0 20px 0;}
+.sub7_3_tc_title{font-size: 18px; margin-bottom: 10px; padding-left: 10px; background-image:url(../img/sub3/sub3_5/sub3_5title.jpg); background-position:0 0px; background-repeat:no-repeat;}
+.sub7_3_tc_txt{font-size: 12px; line-height: 20px; padding-left: 10px; margin-bottom: 20px; color:#797979;}
+
+.sub7_3_table{width: 100%; font-size:12px; text-align:left; margin-bottom:10px;}
+.sub7_3_table thead{border-top: 2px solid #000;}
+.sub7_3_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 10px 0; background-color: #cfe9ea; text-align: center;}
+.sub7_3_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; padding: 10px 5px; letter-spacing: 0; line-height:20px; color:#616161;}
+
+.sub7_3_txt1{line-height:22px; font-size:14px;}
+
+
+
+
+
+
+
+
+
+/*------요금계산 새창-------*/
+.charge_cont{position: relative;}
+
+.charge_fc{padding: 20px 0 100px 0;}
+.charge_table{width: 100%; font-size:12px; margin-bottom:10px; border-right: 1px solid #ccc;}
+
+.charge_table tbody{border-top: 2px solid #000;}
+.charge_table th{border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; padding: 5px 0; background-color: #fdf0f5;}
+.charge_table td{border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; padding: 5px 5px; text-align:left;}
+
+.charge_input{border:1px solid #ccc; width: 230px; height: 20px; padding-left: 8px;}
+
+.charge_join{text-align:center;}
+.charge_join li{display: inline-block;}
+
+.charge_select{border:1px solid #ccc; height: 26px; padding-left: 2px; width:200px;}
+
+.charge_txt1{text-align: center; margin-bottom: 20px; color: #ff3d3d;}
+.charge_txt2{color: #ff3d3d;}
+
+.charge_join input{font-size: 12px; background-color: #868686; border: none; padding: 7px 0; color: #fff; cursor:pointer; display: block; width: 90px;}
+.charge_join input:hover,.sub2_6_join input:active{background-color: #d2236c;}
+.m_subject img{width:13px;height:13px;}
+
+
+/*게시판view*/
+.board_view{width:100%; font-size: 13px; margin-bottom: 20px;}
+.board_view tbody{border-top: 2px solid #408e92; border-bottom: 2px solid #408e92;}
+.board_view td{border-bottom: 1px solid #e4e4e4; border-right: 1px solid #e4e4e4; border-left: 1px solid #e4e4e4; padding: 10px 10px 10px 10px;}
+.board_view td.board_strong{font-weight: bold; color: #19a3ab;}
+.board_view td.board_con{padding: 30px 30px 60px 30px;}
+
+.board_re{background-color: #ececec;}
+.re_peaple{display: inline-block; width:100%; padding: 10px 0 20px 0; border-bottom: 1px dotted #9c9c9c;}
+.re_peaple h4{
+	float: left;
+	margin-right: 10px;
+	padding-left:23px;
+	background-image:url(../img/sub5/adm_re.png);
+	background-position:0 0px;
+	background-repeat:no-repeat;
+}
+.re_peaple time{float: left; color: #868686;}
+
+.re_re{padding: 20px;}
+.hp_input{
+	border: 1px solid #e4eaec;
+    padding-left: 8px;
+    width: 50px;
+}
+
+
+
+
+
+
+/* 20170410 모바일 버전 css 수정 */
+.cjy_170410_form table input,.cjy_170410_form table select{
+	font-size:14px;
+}
+
+.board_m_btn{
+	background-color: #333;
+	border:1px solid #333;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+	font-weight:bold;
+    line-height: 40px;
+	display: block;
+    color: #fff !important;
+	border-radius: 3px;
+}
+
+.board_m_btn:hover{
+	background-color:#de3d80;
+	text-decoration:none;
+	border:1px solid #de3d80;
+}
+
+.board_wri_btn{
+	border-radius: 3px;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 414px){
+	/*------ sub2 -------*/
+	/*sub2_3 일과표*/
+	.sub2_3_table {
+		font-size: 12px;
+	}
+
+
+	/*sub2_6 지원하기*/
+	#fwrite .branch_input {
+		width: 58%;
+	}
+
+
+
+	/*------ sub4 -------*/
+	/*sub4_0 이용요금*/
+	.tab_sub4_title li{
+		width: 48.8%;
+	}
+
+	/*4_1_1 폼양식*/
+	.sub4_1_tell li{
+		width: 60%;
+	}
+
+	.sub4_1_tell li:first-child{
+		width: 15%;
+		margin-right: 0px;
+	}
+
+	.hypn{margin:0 0px;}
+
+	.sub4_1_tell li:last-child{
+		width: 22%;
+	}
+
+	.sub4_1_input_tell {
+		width: 37%;
+	}
+
+	.sub4_1_input_ab {
+		width: 70%;
+	}
+
+	.sub41_sms1{
+		margin-right: 12px;
+		margin-bottom:10px;
+	}
+
+	.sub4_1_coop li {
+		margin-right: 16px;
+	}
+	.sub41_service{
+		margin-bottom:10px;
+	}
+
+	.sub4_1_cctv li:last-child {
+		width: 44%;
+	}
+	.sub4_1_cctv li:last-child input {
+		width: 66%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 375px){
+	/*------ sub4-------*/
+	/*sub4_0 이용요금*/
+	.tab_sub4_title li{
+		width: 48%;
+	}
+
+
+	/*4_1_1 폼양식*/
+	.sub4_1_tell li:first-child {
+		width: 17%;
+	}
+	.sub4_1_tell li {
+		width: 56%;
+	}
+	.sub4_1_input_tell {
+		width: 35%;
+	}
+	.sub41_serviceChek{
+		margin-right: 10px !important;
+	}
+
+	.sub4_1_coop li {
+		margin-right: 12px;
+	}
+
+	.sub4_1_cctv li:last-child {
+		width: 38%;
+	}
+	.sub4_1_cctv li:last-child input {
+		width: 50%;
+	}
+}
+
+
+
+@media screen and (max-width: 375px){
+	/*------ sub4-------*/
+	/*4_1_1 폼양식*/
+	.sub4_1_input_ab {
+		width: 66%;
+	}
+
+}
+
+
+

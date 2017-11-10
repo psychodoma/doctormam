@@ -1,0 +1,52 @@
+2017-07-03 13:18:43==>https://www.allthegate.com/payment/mobilev2/transaction/ansim.jsp?storeID=&trackingID=d17b50f98dd6aafaedba76ec70592493537d80f70489fc964072bcd492042da3&type=approve&
+2017-07-03 13:18:43==>
+
+
+
+
+
+
+
+
+
+{"message":"ANSIM 응답","status":"ok","data":{"FailReason":"상점 할부개월수 초과","OrderNo":"","StoreId":"khjinnurse","DealWon":"000000824000","Success":"n","Code":"0610","AdmNo":"","PayType":"card","CardPartialMm":"5","DeviId":"9000400001","OrdNo":"2851","Amt":"824000","EscrowYn":"","NetCancelId":"AEGIS_VISAkhjinnurse_20170703130708298520","AuthTy":"card","SubTy":"visa3d"},"code":"200"}
+
+2017-07-03 13:19:03==>https://www.allthegate.com/payment/mobilev2/transaction/ansim.jsp?storeID=&trackingID=d17b50f98dd6aafaedba76ec70592493537d80f70489fc964072bcd492042da3&type=approve&
+2017-07-03 13:19:04==>
+
+
+
+
+
+
+
+
+
+{"message":"ANSIM 응답","status":"ok","data":{"FailReason":"상점 할부개월수 초과","OrderNo":"","StoreId":"khjinnurse","DealWon":"000000824000","Success":"n","Code":"0610","AdmNo":"","PayType":"card","CardPartialMm":"5","DeviId":"9000400001","OrdNo":"2851","Amt":"824000","EscrowYn":"","NetCancelId":"AEGIS_VISAkhjinnurse_20170703130708298520","AuthTy":"card","SubTy":"visa3d"},"code":"200"}
+
+2017-07-03 13:19:15==>https://www.allthegate.com/payment/mobilev2/transaction/ansim.jsp?storeID=&trackingID=d17b50f98dd6aafaedba76ec70592493537d80f70489fc964072bcd492042da3&type=approve&
+2017-07-03 13:19:15==>
+
+
+
+
+
+
+
+
+
+{"message":"ANSIM 응답","status":"ok","data":{"FailReason":"상점 할부개월수 초과","OrderNo":"","StoreId":"khjinnurse","DealWon":"000000824000","Success":"n","Code":"0610","AdmNo":"","PayType":"card","CardPartialMm":"5","DeviId":"9000400001","OrdNo":"2851","Amt":"824000","EscrowYn":"","NetCancelId":"AEGIS_VISAkhjinnurse_20170703130708298520","AuthTy":"card","SubTy":"visa3d"},"code":"200"}
+
+2017-07-03 13:21:49==>https://www.allthegate.com/payment/mobilev2/transaction/ansim.jsp?storeID=&trackingID=2f887f1ccebe15bb68f540ca8a60fd2ec3d2eaa79bc7d9907ab4a45f67e2d400&type=approve&
+2017-07-03 13:21:50==>
+
+
+
+
+
+
+
+
+
+{"message":"ANSIM 응답","status":"ok","data":{"AdmTime":"20170703132149","EscrowSendNo":"","DealWon":"000000824000","DealNo":"531425","Success":"y","Code":"0610","CardType2":"0800","StoreId":"khjinnurse","OrderNo":"2851","CardName":"현대","SendNo":"531425","CardName2":"현대","CardType":"0800","AdmNo":"00400153","AgentNo":"151189489","PayType":"card","CardPartialMm":"3","DeviId":"9000400001","OrdNo":"2851","Amt":"824000","EscrowYn":"","NetCancelId":"AEGIS_VISAkhjinnurse_20170703132015345121","AuthTy":"card","SubTy":"visa3d"},"code":"200"}
+

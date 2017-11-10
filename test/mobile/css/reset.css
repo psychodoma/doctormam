@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body,div,h4,h3,h2,h1,ul,li,dl,dt,dd,ul,li,a,img,p,header,section,article,aside,time,nav,span,strong,address,
+small,footer,em,mark,form,fieldset,input,select,form,table,caption,colgroup,col,tbody,th,tr,td{margin:0; padding:0;}
+
+header,section,article,aside,nav,footer{display:block;}
+
+body{
+	font-family:나눔고딕,'Nanum Gothic', Questrial, 'Helvetica Neue', sans-serif;
+	color:#333;
+	font-size:0.75em;
+}
+
+select,input,img{vertical-align:middle;}
+
+small{font-style:normal;}
+
+img,fieldset{border:0 none;}
+
+ul{list-style:none;}
+
+a.roll img.over { display: none;}
+a.roll:hover img { display: none;}
+a.roll:hover img.over { display: inline;}
+
+a:link,a:visited{text-decoration:none; color:#333; cursor:pointer;}
+a:hover,a:active{text-decoration:none; color:#333;}
+
+table{border-collapse:collapse; width:100%;}
+
+
+.hide,caption,legend{
+	width:1px;  
+	height:1px;
+	font-size:0;
+	line-height:0;
+	overflow:hidden;
+	visibility:hidden;
+	position:absolute;  
+	left:-999px;
+}
+
+address{font-style:normal;}
+
+h1, h2, h3, h4{font-size:1em;} /*기본으로 그냥 박자*/
+
+/*#skipNavi{position:absolute;
+		  z-index:999;
+		  width:100%;
+		  height:20px;}
+#skipNavi a{position:absolute;
+			top:-100px;}
+
+#skipNavi a:focus{position:absolute;
+				  top:0;
+				  width:100%
+				  font-size:16px;
+				  background:#333;
+				  color:#fff;
+				  padding:15px;
+				  font-weight:bold;
+				  text-align:center;
+				  display:block;}/*

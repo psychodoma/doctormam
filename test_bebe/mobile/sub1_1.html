@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="Author" content=""/>
+<meta name="Keywords" content=""/>
+<meta name="Description" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/javascript_ex.js"></script>
+<script type="text/javascript" src="js/jquery.word-break-keep-all.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/sub.css"/>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.sub1_1content p').wordBreakKeepAll();
+
+	//IE에서는 플러그인을 사용하지 않고 CSS로 처리하고 싶은 경우 이렇게 옵션을 주면 된다.
+	//$('.test').wordBreakKeepAll({OffForIE:true}); 
+
+	//IE에서 플러그인을 사용하되 CSS를 적용하는 게 아니라 비 IE 브라우저처럼 적용하고 싶을 때 이렇게 옵션을 준다.
+	//$('.test').wordBreakKeepAll({useCSSonIE: false});
+});
+</script>
+
+
+
+
+
+<title>닥터베베 mobile</title>
+</head>
+<body>
+<div id="m_wrap">
+
+	<div id="black_bg" onclick="javascript:potfol_close()"></div>
+
+	<div id="headerBG_m">
+		<h1 class="logo_m"><a href="index.html"><img src="img/main/m_logo.jpg" alt="에넥스 로고"/></a></h1>
+		<p class="login_m"><a href="login1_1"><img src="img/main/m_login.jpg" alt="로그인"/></a></p>
+
+		<header class="headSect" id="header_768">
+			<p class="menu" id="open_btn" onclick="javascript:potfol_fn()"><img src="img/main/m_menu.jpg" alt="전체메뉴열기"/></p>
+				<div id="allmenuH" class="allmenu">
+					<div class="allmenuIn">
+						<strong class="btclose"><a href="javascript:potfol_close()"><img src="img/main/m_close.jpg" alt="전체메뉴 닫기" id="close_btn"/ ></a></strong>
+						<nav>
+							<ul class="f_line_top">
+								<h3></h3>
+								<li class="menu1 small_menu">
+									<p class="bgm">닥터베베</p>
+								</li>
+								<ul class="sub_ul" id="menu1">
+									<a class="bodr1" href="sub1_1.html"><li class="sgm">소개</li></a>
+									<a class="bodr0" href="sub1_2.html"><li class="sgm">인사말</li></a>
+									<a class="bodr1" href="sub1_3.html"><li class="sgm">위치 및 연락처</li></a>
+								</ul>
+
+								<li class="menu2 small_menu">
+									<p class="bgm">베이비시터</p>
+								</li>
+								<ul class="sub_ul" id="menu2">
+									<a class="bodr1" href="sub2_1.html"><li class="sgm">베이비시터란?</li></a>
+									<a class="" href="sub2_2.html"><li class="sgm">베이비시터교육</li></a>
+									<a class="bodr1" href="sub2_3.html"><li class="sgm">베이비시터 서비스 안내</li></a>
+									<a class="" href="sub2_4.html"><li class="sgm">윤리강령</li></a>
+									<a class="bodr1" href="sub2_5.html"><li class="sgm">베이비시터 지원</li></a>
+								</ul>
+
+								<li class="menu3 small_menu">
+									<p class="bgm">이용요금</p>
+								</li>
+								<ul class="sub_ul" id="menu3">
+									<a class="bodr1" href="sub3_1.html"><li class="sgm">유형별 금액</li></a>
+									<a class="" href="sub3_2.html"><li class="sgm">이용약관</li></a>
+								</ul>
+
+								<li class="menu4 small_menu">
+									<p class="bgm">온라인상담</p>
+								</li>
+								<ul class="sub_ul" id="menu4">
+									<a class="bodr1" href="sub4_1.html"><li class="sgm">상담절차</li></a>
+									<a class="" href="sub4_2.html"><li class="sgm">온라인접수</li></a>
+								</ul>
+								
+								<li class="menu5 small_menu">
+									<p class="bgm">가맹안내</p>
+								</li>
+								<ul class="sub_ul" id="menu5">
+									<a class="bodr1" href="sub5_1.html"><li class="sgm">지사문의</li></a>
+									<a class="" href="sub5_2.html"><li class="sgm">자격조건</li></a>
+									<a class="bodr1" href="sub5_3.html"><li class="sgm">절차과정</li></a>
+								</ul>
+
+								<li class="menu6 small_menu">
+									<p class="bgm">커뮤니티</p>
+								</li>
+								<ul class="sub_ul" id="menu6">
+									<a class="bodr1" href="sub6_1.html"><li class="sgm">공지사항</li></a>
+									<a class="" href="sub6_2.html"><li class="sgm">이용후기</li></a>
+									<a class="bodr1" href="sub6_3.html"><li class="sgm">베베수다</li></a>
+									<a class="" href="sub6_4.html"><li class="sgm">문의하기</li></a>
+								</ul>
+
+								<li class="login_join">
+									<p><a href="login_1.html"><img src="img/main/m_mBtn_login.jpg" alt="로그인"></a></p>
+									<p><a href="join_1.html"><img src="img/main/m_mBtn_join.jpg" alt="호원가입"></a></p>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+		</header>
+	</div>
+<!-----------------------------------------------------//   header end  //-------------------------------------------------------------->
+
+
+	<div class="m_subnavi">
+		<ul>
+			<li><a href="sub1_1.html" class="m_subnavi_active">소개</a></li>
+			<li class="borderr"><a href="sub1_2.html">인사말</a></li>
+
+			<li class="borderb"><a href="sub1_3.html">위치 및 연락처</a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="m_wrap">
+		<div class="msub_container">
+			<h3 class="sub1_1title"><img src="img/sub1/sub1_1/sub1_1title1.jpg" alt="엄마와 아이를 가장 잘 아는 닥터베베"/></h3>
+			<div class="sub1_1content">
+				<p class="sub1_1txt">닥터베베는 모유수유 전문 산모 도우미 회사인 '닥터맘'의 계열 브랜드로 차별화된 서비스와 품질 노하우를 통해 쌓은 신뢰를 바탕으로<br/>
+				베이비시터 서비스를 제공합니다.</p>
+
+				<p class="sub1_1txt">닥터베베는 모유수유 전문 산모 도우미 회사인 '닥터맘'의 계열 브랜드입니다.
+				닥터맘이 수년간 산모도우미 서비스를 제공하며 쌓은 노하우를 바탕으로 차별화된 서비스와 품질로 베이비시터 서비스를 제공합니다.</p>
+
+				<h4 class="sub1_1title_so">엄마와 아이를 가장 잘 아는 하나,<span class="point1">질 높은 CARE시스템!!</span></h4>
+
+				<p class="sub1_1txt">'닥터베베'는 질 높은 영.유아Care시스템으로 아이들을 돌봅니다
+				닥터베베는 아동 전문 간호사와 유아교육 전문가, 사회복지사 등 각계 계층의 전문가에게 시터님들의 교육을 체계적으로 하고 있어<br/>
+				보다 또한 혹시 모를 만약의 경우를 대비해 전문 간호사의 응급처치 교육까지 확실하게 이루어집니다.</p>
+
+				<p class="sub1_1img1"><img src="img/sub1/sub1_1/sub1_1img1.jpg" alt="이미지1"/></p>
+
+				<h4 class="sub1_1title_so">엄마와 아이를 가장 잘 아는 둘,<span class="point1">체계적인 교육 프로그램!!</span></h4>
+
+				<p class="sub1_1txt">닥터베베는 체계적인 교육프로그램으로 아이들과 함께합니다.
+				이제 베이비시터는 아이들을 돌봐주는 업무에서 한 단계 성장해야 할 때입니다.
+				하루 종일 아이와 함께 있으면 해줄 것이 너무나도 많습니다.
+				아이들과 함께있는 그 시간들을 더욱 유익하게 보내기 위해 닥터베베에서 체계적인 감각 놀이 지도가 들어갑니다.
+				유아 교육 전문가의 교육으로 월령에 맞는 놀이지도로 영.유아기에 매우 중요한[대.소 근육,언어,감각,기본 생활습관]이 잘 발달 되도록
+				하며, 지속적인 보수 교육을 통해 계속 변화하는 아이와 환경에 맞게 놀이지도가 이루어집니다.</p>
+
+				<p class="sub1_1img2"><img src="img/sub1/sub1_1/sub1_1img2.jpg" alt="이미지2"/></p>
+			</div>
+
+			<h3 class="sub1_1title"><img src="img/sub1/sub1_1/sub1_1title2.jpg" alt="준비하는 닥터베베"/></h3>
+			<div class="sub1_1content">
+				<p class="sub1_1txt">서비스를 제공받을 부모님께 영.유아 발달사항을 체크합니다.</p>
+
+				<p class="sub1_1txt">우리아이들을 처음 만날 때, 아이에 대한 정보를 충분히 알고 간다면, 우리 아이에게더욱 친근하게 다가갈 수 있을 것입니다.
+				닥터베베는 사전에 예약 하시는 부모님께 영.유아에 대한 자세한 발달 사항을 작성해 주실 것을 요청합니다. 이 자료를 통해 베이비시터가
+				우리 아이를 만나기 위해 준비하는 닥터베베 베이비시터님들을 위해 성심성의껏 작성해 주시길 바랍니다.</p>
+
+				<p class="sub1_1img3"></p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<footer>
+		<div class="fbarea">
+			<p class="finfo">상호:닥터베베 ㅣ 대표자:고현진 ㅣ 사업자등록번호:501-96-65950 ㅣ 주소:서울시 서초구 서초대로 24길 9,2층(방배동) ㅣ 본사연락처:02-3144-2585 ㅣ 팩스:02-326-2556 ㅣ E-mail:drbebe11@gmail.com ㅣ 강서(양천)지사:02-868-5457 ㅣ 의정부(구리,남양주)지사:031-844-0988 ㅣ 성남(분당)지사:031-752-5228</p>
+			
+			<address>COPYRIGHT ⓒ DORTORBEBE ALL RIGHTS RESREVED.</address>
+		</div>
+	</footer>
+
+
+</div><!--m_wrap 해더,컨테이너,푸터 전체 감싼-->
+
+</body>
+</html>

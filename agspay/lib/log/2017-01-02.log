@@ -1,0 +1,3 @@
+2017-01-02 16:31:53==>https://www.allthegate.com/payment/mobilev2/transaction/isp.jsp?storeID=&trackingID=0840a37cc9a12adbabcaae8d61d549bbb87544ccae7def74b4ddd570f254b759&type=approve&
+2017-01-02 16:31:53==>{"message":"ISP 승인 응답","status":"ok","data":{"FailReason":"상점 할부개월수 초과","AdmTime":"","StoreId":"khjinnurse","DealWon":"1000000","SendNo":"1134","DealNo":"1134","CardType":"0100","Success":"n","Code":"0610","AdmNo":"","PayType":"card","CardPartialMm":"06","DeviId":"9000400001","OrdNo":"1134","Amt":"1000000","EscrowYn":"","NetCancelId":"AEGIS_ISP_khjinnurse_20170102162926157863","AuthTy":"card","SubTy":"isp"},"code":"200"}
+

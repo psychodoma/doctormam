@@ -1,0 +1,3 @@
+2017-07-12 21:26:34==>https://www.allthegate.com/payment/mobilev2/transaction/isp.jsp?storeID=&trackingID=d28722a09d24f1a86ef772ce6900840e1d946304ffc220833e3824069edfa960&type=approve&
+2017-07-12 21:26:35==>{"message":"ISP 승인 응답","status":"ok","data":{"AdmTime":"20170712212635","EscrowSendNo":"","CardName":"KB","StoreId":"khjinnurse","DealWon":"1110000","SendNo":"109991","DealNo":"109991","CardType":"0200","Success":"y","Code":"0610","AdmNo":"30047466","PayType":"card","CardPartialMm":"03","DeviId":"9000400001","OrdNo":"1204","Amt":"1110000","EscrowYn":"","NetCancelId":"AEGIS_ISP_khjinnurse_20170712212553410367","AuthTy":"card","SubTy":"isp"},"code":"200"}
+

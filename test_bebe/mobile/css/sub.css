@@ -1,0 +1,832 @@
+@charset "utf-8";
+
+.m_subnavi{text-align: center;}
+.m_subnavi ul{max-width: 768px; margin: 0 auto; width: 100%; display: inline-block; border-bottom: 1px solid #ccc; background-color: #eae5e5;}
+.m_subnavi ul li{float: left; width: 49.7%; text-align: center; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc;} 
+.m_subnavi ul li a{background-color: #eae5e5; display: block; padding: 10px; color:#636363;}
+.m_subnavi ul li a:hover{background-color: #5cbfd6 ; color:#fff;}
+
+.m_subnavi_active{background-color: #5cbfd6  !important; color:#fff !important;}
+
+
+
+
+
+
+/*공통*/
+#m_wrap{overflow:hidden;}
+.msub_container{padding:15px 15px 50px 15px; overflow:hidden; max-width:768px; margin:0 auto;}
+.msub_container img{width:100%;}
+
+
+.subcontent{width:1000px; margin:0 auto 10px auto; position: relative; overflow:hidden;}
+
+.sub_cont1{float:left; width:750px;}
+.subpage_name{font-size: 22px; padding: 35px 0 36px 0; border-bottom: 1px solid #ddd; color: #000; margin-bottom:20px;}
+
+.s_cont{position: relative; padding:30px 0 0 0;}
+
+
+
+
+
+
+
+
+/*------ 회원가입-------*/
+/*join_1 이용약관*/
+.jointxt1{font-size: 16px; font-weight:bold; margin-bottom: 10px;}
+.jointxtarea{padding: 8px; border: 1px solid #ccc; font-size:12px; width: 95%;}
+
+.join_agree{}
+.join_agree ul{text-align: center;}
+.join_agree ul li{display: inline-block; margin: 20px 3px; width:40%}
+.join_agree ul li a{
+	display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4e4e4e;
+    width: 100%;
+    padding: 10px 0;
+    color: #d6d6d6;
+}
+.join_agree ul li a:hover{background-color:#572e8a; color:#fff;}
+.join_agree ul li a.join_agrActive{background-color:#572e8a; color:#fff;}
+
+
+
+
+/*join_2 회원가입*/
+.join_fc{padding: 20px 0 50px 0;}
+.join_2_table{width: 100%; font-size:14px; margin-bottom:30px; border-right: 1px solid #ccc;}
+
+.join_2_table tbody{border-top: 2px solid #000;}
+.join_2_table th{
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 12px 0;
+	background-color: #f8ecff;
+	width: 100px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.join_2_table td{border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; padding: 12px 5px; text-align:left;}
+
+.join_mail{display: inline-block; vertical-align: middle;}
+.join_mail li{float: left; margin-right: 15px;}
+.join_mail li:first-child{margin-right: 10px; margin-left:10px;}
+
+.join_sex{display: inline-block; vertical-align: middle;}
+.join_sex li{float: left; margin-right: 15px;}
+
+
+.join_btn{text-align:center;}
+.join_btn li{display: inline-block; margin:0 2px; width:40%;}
+.join_btn li:first-child > input{background-color: #572e8a; color:#fff;}
+.join_btn input{
+	font-size: 16px;
+    font-weight: bold;
+    background-color: #4e4e4e;
+    width: 100%;
+    padding: 10px 0;
+    color: #d6d6d6;
+	cursor:pointer;
+	border:none;
+}
+.join_btn input:hover,.join_btn input:active{background-color:#572e8a; color:#fff;}
+
+
+
+
+
+
+
+
+
+
+/*------ 로그인-------*/
+/*login_1 로그인*/
+.login_bg{background-color: #e9f9f9; padding: 20px 20px 27px 20px;}
+.login_wr{display: inline-block; border-bottom: 1px solid #d1e1e1; padding-bottom: 20px; margin-bottom: 20px;}
+
+.login_txtImg{text-align:center;}
+
+.login_fm{margin-top:10px;}
+
+.login_table{float: left; margin-right: 8px;}
+.login_table tbody{}
+.login_table tbody th{text-align: left; font-size: 15px; width: 70px; padding:10px 0; color:#606666;}
+.login_table tbody td{}
+.login_input{border:1px solid #cae3df; height: 30px; padding-left: 8px; width:95%;}
+
+.loginBtn{}
+.loginBtn input{
+	border: none;
+    background-color: #54c0c2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    padding: 12px 0;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.loginBtn input:hover{background-color: #099294;}
+
+
+.login_search{}
+.login_search ul{text-align: center; font-size: 13px; color: #5f6b6b;}
+.login_search ul li{
+	display: inline-block;
+	padding-left:10px;
+	background-image:url(../img/sub/login_dot.png);
+	background-repeat:no-repeat;
+	background-position:0 10px;
+	margin-bottom: 10px;
+}
+
+.losear{margin-top: 4px; margin-bottom: 5px;}
+.losear_btn{width: 150px; margin: 0 auto;}
+.losear_btn a{    
+	background-color: #54c0c2;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+	text-decoration:none;
+    width: 150px;
+    padding: 3px 0 5px 0px;
+    display: block;
+}
+
+.losear_btn a:hover{background-color: #099294;}
+
+
+
+
+
+/*login_2 아이디/패스워드 찾기*/
+.idpass{position: relative; display: inline-block; width: 100%;}
+
+.login_bg_l,.login_bg_r{background-color: #e9f9f9; padding: 20px 20px 27px 20px;}
+
+.login_bg_l{margin-bottom: 18px;}
+.login_bg_r{}
+
+.login_wr1{text-align:center;}
+
+.login_fm1{display: inline-block; margin-top:20px;}
+.login_fm1_1{display: inline-block; margin-top:20px;}
+.login_bottom{padding-bottom: 30px; border-bottom: 1px solid #d1e1e1; margin-bottom: 15px;}
+
+.ser_bname{font-size: 22px; color: #11a7b6; margin-bottom: 8px;}
+.ser_sname{font-size: 12px; color: #676767;}
+
+
+.login_table1{float: left;}
+.login_table1 tbody{}
+.login_table1 tbody th{text-align: left; font-size: 14px; width: 70px; padding:10px 10px 10px 0; color:#606666;}
+.login_table1 tbody td{}
+
+
+.login_input1{border:1px solid #cae3df; height: 30px; padding-left: 8px;}
+
+.loginBtn1{}
+.loginBtn1 input{
+	border: none;
+    background-color: #54c0c2;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 170px;
+    padding: 7px 0 7px 0;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.loginBtn1 input:hover{background-color: #099294;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------ sub1-------*/
+/*sub1_1 소개*/
+.sub1_1title{margin-bottom:10px;}
+.sub1_1title img{width:75%;}
+.sub1_1content{}
+
+.sub1_1txt{
+	font-size: 14px;
+    line-height: 20px;
+    color: #4e4e4e;
+    margin-bottom: 30px;
+}
+
+.sub1_1title_so{font-size: 14px; color: #2eab08; margin-bottom: 15px;}
+
+.sub1_1img1{margin-bottom:50px;}
+
+.sub1_1img2{margin-bottom:50px;}
+
+
+
+
+/*sub1_2 인사말*/
+.sub1_2content{display: inline-block;}
+
+.sub1_2hed{display: inline-block; margin-bottom:10px;}
+.sub1_2left{float: left; width: 63%;}
+.sub1_2left1{display: inline-block;}
+
+
+.sub1_2txt{font-size: 13px; line-height: 20px; color: #4e4e4e; margin-top: 8px;}
+
+.sub1_2right{float: right; width: 35%; }
+
+.s1_sign{float:right; width:45%; padding-top:20px;}
+
+
+.sub1_2left_r{float: right; width: 63%;}
+.sub1_2right_l{float: left; width: 35%;}
+
+
+
+
+
+/*sub1_3 위치및 연락처*/
+.sub1_5_c{padding:30px 0 100px 0;}
+
+.sub1_5_img1{border:1px solid #d6d6d6;}
+
+.sub1_5_loca{}
+.loca_li{display: inline-block; padding: 15px 0; border-bottom: 1px dotted #ccc; width: 100%;}
+.loca_li:last-child{border-bottom:none;}
+
+.loca_li .loca_icon{float: left; margin-right: 10px; width:15%;}
+.loca_li .loca_info{float: left; width:78%;}
+.loca_info h4{font-size: 15px; padding: 0 0 8px 0;}
+.loca_info .loca_add{font-size: 13px; margin-bottom:4px; color: #656565;}
+
+.loca_txt_strong{font-size: 13px; margin-bottom:4px; color: #464646; font-weight:bold;}
+.loca_txt{font-size: 13px; color: #989898;}
+.txt_normal{color: #989898; margin-left: 10px;}
+
+.loca_info .loca_tell{font-size: 15px; color: #656565;}
+.loca_info .loca_tell li{float:left; margin-right: 10px; font-size:13px;}
+.loca_tell .l_tell{padding-left: 23px; background-image:url(../img/sub1/sub1_3/map_icon1_1.jpg); background-repeat:no-repeat; background-position:0 0;}
+.loca_tell .l_fax{padding-left: 23px; background-image:url(../img/sub1/sub1_3/map_icon1_2.jpg); background-repeat:no-repeat; background-position:0 0;}
+
+.loca_bus{display: inline-block;}
+.loca_bus li{float: left;}
+
+
+
+
+
+
+
+
+
+
+
+/*------ sub2-------*/
+/*sub2_1 베이비시터란?*/
+.sub2_1title img{width:40%;}
+
+.sub2_1txt{
+	color:#646464;
+	font-weight:bold;
+	font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.sub2_1right{margin-bottom:30px;}
+
+.sub2_1nor{padding-left: 10px;}
+.sub2_1nor li{
+	color:#646464;
+	font-weight:bold;
+	font-size: 13px;
+	margin-bottom:5px;
+	padding-left: 10px;
+	background-image:url(../img/sub2/sub2_1/sub2_dot.jpg);
+	background-repeat:no-repeat;
+	background-position:0 2px;
+}
+
+
+
+
+
+/*sub2_2 베이비시터교육*/
+.sub2_2_tc{padding: 0px 0 20px 0;}
+
+.tc_title{
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	background-image:url(../img/sub3/sub3_5/sub3_5title.jpg);
+	background-position:0 -3px;
+	background-repeat:no-repeat;
+	color: #1aa8b5;
+}
+
+.tc_txtarea{padding-left: 10px;}
+.tc_txt{color:#646464; font-size: 14px; margin-bottom: 10px; line-height:20px;}
+.tc_strong{font-weight:bold; font-size: 14px; margin-bottom: 20px;}
+.tc_small{font-size: 12px; margin-bottom: 5px; color: #0e96a2;}
+
+.sub2_2_table{width: 100%; font-size:13px; text-align:center; margin-bottom:10px;}
+.sub2_2_table thead{border-top: 2px solid #000;}
+.sub2_2_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 0; background-color: #cfe9ea;}
+.sub2_2_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px; letter-spacing: 0;}
+
+.t_strong{font-weight:bold; background-color: #f8ecff;}
+
+
+.sub2_2_li{display: inline-block; border-bottom: 2px solid #c3c3c3; padding-bottom: 30px; margin-bottom:30px;}
+.sub2_2_liTxt{font-weight:normal; font-size:16px; border-bottom: 2px solid #c3c3c3; padding-bottom: 10px; margin-bottom: 10px;}
+
+.sub2_2_li_list{
+	float: left;
+    border-bottom: 1px dotted #d2d2d2;
+    border-right: 1px dotted #d2d2d2;
+    padding: 10px;
+	width: 42.8%;
+}
+
+.sub2_2li_left{float: left; margin-right: 10px;}
+.sub2_2li_right{float: left; font-size: 13px; line-height: 22px; color: #808080;}
+.sub2_2li_title{font-size: 15px; font-weight: bold; color: #18848a; margin-bottom: 10px;}
+
+.sub2_2photo{display: inline-block; padding-bottom:30px;}
+.sub2_2photoLeft{float:left; margin-bottom: 15px;}
+.sub2_2photoLeft li{display: inline-block; margin-right: 1%; width: 32%;}
+.sub2_2photoLeft li:last-child{margin-right:0;}
+
+.sub2_2photoRight{float:left;}
+.sub2_2photoRight li{display: inline-block; margin-left:1%; width:48.9%;}
+.sub2_2photoRight li:first-child{margin-left:0;}
+
+
+
+
+
+
+
+
+
+/*sub2_3 베이비시터 서비스 안내*/
+.sub2_3_tc{padding: 0px 0 40px 0;}
+
+.sub2_3_table{width: 100%; font-size:13px; text-align:center; margin-bottom:10px;}
+.sub2_3_table thead{border-top: 2px solid #000;}
+.sub2_3_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 0; background-color: #cfe9ea;}
+.sub2_3_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px; letter-spacing: 0; text-align: left; line-height: 22px;}
+
+.sub2_3addTxt1{line-height: 20px; color: #3e3e3e; font-size: 12px;}
+.sub2_3addTxt1 li{margin-bottom:8px;}
+
+.sub2_3_table1{width: 100%; font-size:13px; text-align:center; margin-bottom:10px;}
+.sub2_3_table1 thead{border-top: 2px solid #000;}
+.sub2_3_table1 th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 0; background-color: #cfe9ea;}
+.sub2_3_table1 td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px; letter-spacing: 0; text-align: center; line-height: 22px;}
+
+
+
+
+
+
+
+/*sub2_4 윤리강령*/
+.sub2_4_list{display: inline-block; margin-bottom: 30px;}
+.sub2_4li_left{width:30%;}
+.sub2_4li_right{color: #808080; font-size: 13px; float: left; padding-top: 10px;}
+.sub2_4li_right li{line-height: 26px;}
+
+.sub2_4li_right li.sub2_4li_title{font-size: 16px; font-weight: bold; color: #2f2f2f; margin-bottom:10px;}
+
+
+
+
+
+
+/*sub2_5 베이비시터 지원*/
+.sub2_5ul{display: inline-block; font-size: 13px; margin-bottom: 30px;}
+.sub2_5ul tbody{}
+.sub2_5ul th{
+	background-image:url(../img/sub2/sub2_5/sub2_5dot.jpg);
+	background-repeat:no-repeat;
+	background-position:0 7px;
+	width: 20px;
+    height: 20px;
+    padding: 7px 0;
+    display: block;
+}
+.sub2_5ul td{padding: 3px 0; line-height: 23px;}
+
+.sub2_5txt{font-size: 13px; line-height: 23px; margin-bottom: 30px;}
+.sub2_5txt1{margin-bottom:5px; color:#505050;}
+
+
+.sub2_5checkbox{}
+.sub2_5checkbox li{display: inline-block; color: #4a4a4a; margin-bottom:5px;}
+.sub2_5checkbox li:last-child{margin-bottom:0;}
+
+.fild_1_tex2{padding: 8px; border: 1px solid #ccc; font-size:12px; line-height:24px; width:91%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------ sub3-------*/
+/*sub3_1 이용요금*/
+.sub3_1_table{width: 100%; font-size:13px; text-align:center; margin-bottom:5px;}
+.sub3_1_table thead{border-top: 2px solid #000;}
+.sub3_1_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 0; background-color: #cfe9ea;}
+.sub3_1_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 0; letter-spacing: 0; text-align: center; line-height: 22px;}
+
+.sub3_1addTxt1{line-height: 22px; color: #3e3e3e; font-size: 13px;}
+
+
+/*sub3_2 이용약관*/
+.sub3_2txt1{font-size: 15px; font-weight:bold; margin-bottom: 10px;}
+.sub3_2txtarea{padding: 8px; width:95%; border: 1px solid #ccc; margin-bottom: 30px; line-height:20px;}
+
+
+
+
+/*sub3_3 영유아 베이직*/
+.sub3title_li img{width:50%;}
+
+.sub3img_txt{margin-bottom:50px;}
+.sub3txt_li{}
+.sub3txt_li dt{font-size:18px; font-weight:bold; color:#b93066; margin-bottom:5px;}
+.sub3txt_li dd{font-size:14px; margin-bottom: 14px; line-height:22px;}
+
+.sub3txt_li1{font-size:13px;}
+.sub3txt_li1 li{
+	background-image:url(../img/sub3/sub3dot.jpg);
+	background-repeat:no-repeat;
+	background-position:0 3px;
+	padding-left:20px;
+	line-height:22px;
+	color: #da2625;
+	margin-bottom:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------ sub4-------*/
+/*sub4_1 상담절차*/
+.sub4_1content{padding:20px 0 0 0;}
+.sub4_1_li1,.sub4_1_li2{display: inline-block;}
+.sub4_1_li1 li{
+	display: inline-block;
+    padding-left: 23px;
+    margin: 0 2px;
+    background-image: url(../img/sub4/sub4_1/sub4_1_icon1.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 38px;
+	width:27%;
+}
+.sub4_1_li1 li:first-child,.sub4_1_li2 li:first-child{padding-left:0; margin-left: 0; background-image:none;}
+
+.sub4_1_li2 li{
+	display: inline-block;
+    padding-left: 23px;
+    margin: 0 2px;
+    background-image: url(../img/sub4/sub4_1/sub4_1_icon3.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 38px;
+	width:27%;
+}
+
+.sub4_1iconD{
+	width: 20px;
+    height: 20px;
+    background-image: url(../img/sub4/sub4_1/sub4_1_icon2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    float: right;
+    margin-right: 11.3%;
+    padding: 10px 0;
+}
+
+.sub4_1iconD1{
+	width: 20px;
+    height: 20px;
+    background-image: url(../img/sub4/sub4_1/sub4_1_icon2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    float: left;
+    margin-left: 11.3%;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sub4_1*/
+/*sub4_1 온라인 예약*/
+.sub4_1title1{padding-top:10px; width:50%;}
+.sub4_1txt1{font-size:12px; color:#2b2b2b; margin-bottom:20px;}
+.sub4_1img1{margin-bottom:20px;}
+
+.sub4_1bg{height:126px; background-image:url(../img/sub4/sub4_1/sub4_1_imgBG2.jpg); background-repeat:no-repeat; background-position: -40px 0px; position: relative; margin-bottom:20px;}
+.sub4_acc{font-size: 12px; font-weight: bold; color: #847a76; float: right; margin-top: 45px; margin-right: 15px; line-height: 18px;}
+.sub4_acc1{display: block;}
+
+.sub4_1cont{display: inline-block;}
+.sub4_1cont li{float:left; width: 32%; text-align: center; border-radius: 200px; background-color: #ececec; margin-right:5px;}
+.sub4_1cont li:hover{background-color:#a4d1f9;}
+
+.sub4_1cont li img{}
+
+
+
+
+/*sub4_2 온라인접수*/
+.sub4_2_fc{padding: 0px 0 60px 0;}
+.sub4_2_table{width: 100%; font-size:13px; margin-bottom:30px; border-right: 1px solid #ccc;}
+
+.sub4_2_table tbody{border-top: 2px solid #000;}
+.sub4_2_table th{border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; padding: 12px 5px; background-color: #f8ecff; text-align:left;}
+.sub4_2_table td{border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; padding: 12px 5px; text-align:left;}
+
+
+
+
+/*4_2 폼양식*/
+.parentsphon{display: inline-block;}
+.parentsphon p{float: left; margin-right: 10px; padding-top: 2px;}
+
+.sub4_2_tell{float: left;}
+.sub4_2_tell li{display: inline-block; width:31%;}
+.sub4_2_tell li:first-child{margin-right:9px; width:20%;}
+
+
+.sub4_2add_btn{border: none; background-color: #272727; padding: 4px 8px 6px 8px; color: #c5c5c5; border-radius: 3px; margin-left:5px; cursor:pointer;}
+.sub4_2_add li{margin-bottom:6px;}
+.sub4_2_add li:last-child{margin-bottom:0;}
+
+.sub4_2addTxt{margin-left:6px; color:#717171;}
+
+
+
+
+.sub4_2_delivery{display: inline-block;}
+.sub4_2_delivery li{float: left; margin-right: 20px;}
+
+
+
+.sub4_2_coop{display: inline-block; float:left; }
+.sub4_2_coop li{float: left; margin-right: 5px; width:90%; margin-bottom:5px;}
+.sub4_2_coop li:last-child{margin-bottom:0px;}
+.sub4_2_coop li p{float:left; margin-right:5px;}
+
+
+
+
+.sub4_2_service3{display: inline-block;}
+.sub4_2_service3 li{margin-bottom: 10px;}
+.sub4_2_service3 li:last-child{margin-bottom:0;}
+
+.sub4_2_service3_1{display: inline-block;}
+.sub4_2_service3_1 li{float:left; margin-right:20px;}
+
+.sub4_2_service3_2{display: inline-block;}
+.sub4_2_service3_2 li{float:left; margin-right:20px;}
+
+
+
+
+.sub4_2_cctv{display: inline-block;}
+.sub4_2_cctv li{float: left; margin-right: 20px;}
+
+
+
+
+.fild_1{margin-bottom:30px;}
+.fild_1_title{font-size: 15px; font-weight: bold; margin-bottom: 5px; display: block;}
+.fild_1_tex{padding: 8px; width: 95%; border: 1px solid #ccc; margin-bottom:5px;}
+
+
+
+.sub4_2list_btn{text-align:center;}
+.sub4_2list_btn li{display: inline-block; margin:0 2px;}
+
+.sub4_2list_btn li:first-child > input{background-color: #d2236c;}
+.sub4_2list_btn input{font-size: 18px; background-color: #868686; border: none; padding: 10px 50px 14px 50px; color: #fff; cursor:pointer;}
+.sub4_2list_btn input:hover,.sub4_1_1_list input:active{background-color: #d2236c;}
+
+
+
+
+
+
+
+
+
+
+
+/*------ sub5-------*/
+/*sub5_1*/
+.fild_1_tex1{padding: 8px; width: 92%; border: 1px solid #ccc; margin-bottom:5px;}
+
+
+
+
+
+/*sub5_2 자격조건*/
+.sub5_2li{display: inline-block; margin-bottom:30px;}
+.sub5_2li li{float:left; margin-right: 2%; margin-bottom:8px; width: 32%;}
+
+.sub5_2_table{width: 100%; font-size:13px; text-align:center; margin-bottom:5px;}
+.sub5_2_table thead{border-top: 2px solid #000;}
+.sub5_2_table th{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 0; background-color: #cfe9ea;}
+.sub5_2_table td{border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; border-left: 1px solid #ccc; padding: 15px 10px; letter-spacing: 0; text-align: center; line-height: 24px;}
+
+.sub5_2addTxt1{line-height: 22px; color: #3e3e3e; font-size: 13px; margin-bottom:30px;}
+
+
+
+
+
+/*sub5_3 절차과정*/
+.sub5_3txt{color: #808080; font-size: 17px; text-align: center; line-height: 24px; margin-bottom:10px;}
+
+
+
+
+
+
+
+
+
+
+/*------ sub6-------*/
+/*sub6_1 공지사항*/
+.sub5_1_fc{}
+
+.sub5_1_table{width: 100%; font-size:12px; text-align:center; margin-bottom:20px;}
+.sub5_1_table thead{border-top: 2px solid #000;}
+.sub5_1_table th{border-bottom: 1px solid #ccc; padding: 10px 0; background-color: #cfe9ea;}
+.sub5_1_table td{border-bottom: 1px solid #ccc; padding: 10px; letter-spacing: 0;}
+
+.sub5_borad_name{text-align:left;}
+.borad_file{
+	width:13px;
+	height:13px;
+	background-image:url(../img/sub/file_icon.jpg);
+	background-position:0 0px;
+	background-repeat:no-repeat;
+	display: inline-block;
+	margin-left:5px;
+}
+.borad_lock{
+	width:13px;
+	height:13px;
+	background-image:url(../img/sub/lock_icon.jpg);
+	background-position:0 0px;
+	background-repeat:no-repeat;
+	display: inline-block;
+	margin-left:5px;
+}
+
+.sub5_1_table td ul li{line-height:22px; text-align:left;}
+
+.board_ft{text-align: center; margin-bottom: 30px; display: inline-block; width: 100%;}
+.board_list{display: inline-block;}
+.board_list li{display: inline-block; margin: 0 2px;}
+.board_list li a{color:#676767;}
+
+.pprev{}
+.prev{margin-right: 5px !important;}
+
+.nnext{}
+.next{margin-left: 5px !important;}
+
+.board_list .board_strong a{font-weight:bold; color:#d53478;}
+
+
+.board_list_btn{float: right; margin-left:5px;}
+.board_list_btn a{background-color: #d4d4d4; padding: 3px 8px 5px 8px; border: 1px solid #b5b5b5; text-decoration:none;}
+.board_list_btn a:hover{background-color: #333; color:#fff;}
+
+
+.board_search{text-align: center;}
+.board_search li{display: inline-block;}
+
+
+.sub5_1_select{border:1px solid #ccc; height: 26px; padding-left: 2px; width:70px;}
+.sub5_1add_btn{border: 1px solid #b5b5b5; background-color: #d4d4d4; padding: 3px 8px 5px 8px; color: #333; cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------전국지사안내------*/
+.sub_store_li{display: inline-block; width: 100%; padding-bottom: 20px; border-bottom: 1px dotted #ccc;}
+.sub_st_logo{width: 20%; float: left; margin-right: 3%;}
+
+.sub_store_txt{float: left;}
+.store_title{font-size: 18px; letter-spacing: -1px; color: #ba536e; margin-bottom: 7px;}
+.sub_st_txt{float: left;}
+.sub_st_txt  li{font-size: 14px; color: #8c8c8c;}
+.sub_st_txt  li.store_name{color:#272727; font-weight: bold; margin-bottom: 4px;}
+
+.sub_st_call{width: 20%; float: right;}
+
+
+
+
+
+
+
+/*------요금계산 새창-------*/
+.charge_cont{position: relative;}
+
+.charge_fc{padding: 20px 0 100px 0;}
+.charge_table{width: 100%; font-size:12px; margin-bottom:10px; border-right: 1px solid #ccc;}
+
+.charge_table tbody{border-top: 2px solid #000;}
+.charge_table th{border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; padding: 5px 0; background-color: #fdf0f5;}
+.charge_table td{border-bottom: 1px solid #ccc; border-left: 1px solid #ccc; padding: 5px 5px; text-align:left;}
+
+.charge_input{border:1px solid #ccc; width: 230px; height: 20px; padding-left: 8px;}
+
+.charge_join{text-align:center;}
+.charge_join li{display: inline-block;}
+
+.charge_select{border:1px solid #ccc; height: 26px; padding-left: 2px; width:200px;}
+
+.charge_txt1{text-align: center; margin-bottom: 20px; color: #ff3d3d;}
+.charge_txt2{color: #ff3d3d;}
+
+.charge_join input{font-size: 12px; background-color: #868686; border: none; padding: 7px 0; color: #fff; cursor:pointer; display: block; width: 90px;}
+.charge_join input:hover,.sub2_6_join input:active{background-color: #d2236c;}

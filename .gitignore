@@ -14,18 +14,14 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+*.png
+*.jpg
+*.gif
+
 **/data
 .ftpconfig
 
-*.jpg
-*.png
-*.gif
-*.js
-*.css
-*.html
-*.log
-*.txt
-*.sql
+
 
 # Windows shortcuts
 *.lnk

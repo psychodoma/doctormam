@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="Author" content=""/>
+<meta name="Keywords" content=""/>
+<meta name="Description" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/javascript_ex.js"></script>
+<script type="text/javascript" src="js/jquery.word-break-keep-all.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/sub.css"/>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.sub2_3addTxt1 li').wordBreakKeepAll();
+
+	//IE에서는 플러그인을 사용하지 않고 CSS로 처리하고 싶은 경우 이렇게 옵션을 주면 된다.
+	//$('.test').wordBreakKeepAll({OffForIE:true}); 
+
+	//IE에서 플러그인을 사용하되 CSS를 적용하는 게 아니라 비 IE 브라우저처럼 적용하고 싶을 때 이렇게 옵션을 준다.
+	//$('.test').wordBreakKeepAll({useCSSonIE: false});
+});
+</script>
+
+
+
+
+
+<title>닥터베베 mobile</title>
+</head>
+<body>
+<div id="m_wrap">
+
+	<div id="black_bg" onclick="javascript:potfol_close()"></div>
+	<div id="headerBG_m">
+		<h1 class="logo_m"><a href="index.html"><img src="img/main/m_logo.jpg" alt="에넥스 로고"/></a></h1>
+		<p class="login_m"><a href="login1_1"><img src="img/main/m_login.jpg" alt="로그인"/></a></p>
+
+		<header class="headSect" id="header_768">
+			<p class="menu" id="open_btn" onclick="javascript:potfol_fn()"><img src="img/main/m_menu.jpg" alt="전체메뉴열기"/></p>
+				<div id="allmenuH" class="allmenu">
+					<div class="allmenuIn">
+						<strong class="btclose"><a href="javascript:potfol_close()"><img src="img/main/m_close.jpg" alt="전체메뉴 닫기" id="close_btn"/ ></a></strong>
+						<nav>
+							<ul class="f_line_top">
+								<h3></h3>
+								<li class="menu1 small_menu">
+									<p class="bgm">닥터베베</p>
+								</li>
+								<ul class="sub_ul" id="menu1">
+									<a class="bodr1" href="sub1_1.html"><li class="sgm">소개</li></a>
+									<a class="bodr0" href="sub1_2.html"><li class="sgm">인사말</li></a>
+									<a class="bodr1" href="sub1_3.html"><li class="sgm">위치 및 연락처</li></a>
+								</ul>
+
+								<li class="menu2 small_menu">
+									<p class="bgm">베이비시터</p>
+								</li>
+								<ul class="sub_ul" id="menu2">
+									<a class="bodr1" href="sub2_1.html"><li class="sgm">베이비시터란?</li></a>
+									<a class="" href="sub2_2.html"><li class="sgm">베이비시터교육</li></a>
+									<a class="bodr1" href="sub2_3.html"><li class="sgm">베이비시터 서비스 안내</li></a>
+									<a class="" href="sub2_4.html"><li class="sgm">윤리강령</li></a>
+									<a class="bodr1" href="sub2_5.html"><li class="sgm">베이비시터 지원</li></a>
+								</ul>
+
+								<li class="menu3 small_menu">
+									<p class="bgm">이용요금</p>
+								</li>
+								<ul class="sub_ul" id="menu3">
+									<a class="bodr1" href="sub3_1.html"><li class="sgm">유형별 금액</li></a>
+									<a class="" href="sub3_2.html"><li class="sgm">이용약관</li></a>
+								</ul>
+
+								<li class="menu4 small_menu">
+									<p class="bgm">온라인상담</p>
+								</li>
+								<ul class="sub_ul" id="menu4">
+									<a class="bodr1" href="sub4_1.html"><li class="sgm">상담절차</li></a>
+									<a class="" href="sub4_2.html"><li class="sgm">온라인접수</li></a>
+								</ul>
+								
+								<li class="menu5 small_menu">
+									<p class="bgm">가맹안내</p>
+								</li>
+								<ul class="sub_ul" id="menu5">
+									<a class="bodr1" href="sub5_1.html"><li class="sgm">지사문의</li></a>
+									<a class="" href="sub5_2.html"><li class="sgm">자격조건</li></a>
+									<a class="bodr1" href="sub5_3.html"><li class="sgm">절차과정</li></a>
+								</ul>
+
+								<li class="menu6 small_menu">
+									<p class="bgm">커뮤니티</p>
+								</li>
+								<ul class="sub_ul" id="menu6">
+									<a class="bodr1" href="sub6_1.html"><li class="sgm">공지사항</li></a>
+									<a class="" href="sub6_2.html"><li class="sgm">이용후기</li></a>
+									<a class="bodr1" href="sub6_3.html"><li class="sgm">베베수다</li></a>
+									<a class="" href="sub6_4.html"><li class="sgm">문의하기</li></a>
+								</ul>
+
+								<li class="login_join">
+									<p><a href="login_1.html"><img src="img/main/m_mBtn_login.jpg" alt="로그인"></a></p>
+									<p><a href="join_1.html"><img src="img/main/m_mBtn_join.jpg" alt="호원가입"></a></p>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+		</header>
+	</div>
+<!-----------------------------------------------------//   header end  //-------------------------------------------------------------->
+
+	<div id="m_wrap">
+		<div class="m_subnavi">
+			<ul>
+				<li><a href="sub2_1.html">베이비시터란?</a></li>
+				<li class="borderr"><a href="sub2_2.html">베이비시터 교육</a></li>
+
+				<li><a href="sub2_3.html" class="m_subnavi_active">베이비시터 서비스 안내</a></li>
+				<li class="borderr"><a href="sub2_4.html">윤리강령</a></li>
+
+				<li class="borderb borderb"><a href="sub2_5.html">베이비시터 지원</a></li>
+			</ul>
+		</div>
+
+
+
+		<div class="m_wrap">
+			<div class="msub_container">
+				
+				<div class="sub2_3_tc">
+					<table summary="교육내용,교육시간" class="sub2_3_table">
+						<caption>교육과정</caption>
+							<thead>
+								<tr>
+									<th scope="col" style="width:25%;">유형</th>
+									<th colspan="2" style="" scope="col">영·유아기</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="4" class="t_strong">영유아<br />
+									베이비시터 업무</td>
+									<td style="width:18%; text-align: center;">기본업무</td>
+									<td>수유/이유식(만들기)/간식 제공, 기저귀 갈기, 낮잠 재우기, 식사 예절, 배변 훈련</td>
+								</tr>
+								<tr>
+									<td style="text-align: center;">놀이지도</td>
+									<td>연령별 감각놀이 실외놀이 및 산책(돌 전후부터 가능)</td>
+								</tr>
+								<tr>
+									<td style="text-align: center;">건강관리</td>
+									<td>베이비 마사지, 목욕, 병원진료(보건소) 및 투약</td>
+								</tr>
+								<tr>
+									<td style="text-align: center;">위생관리</td>
+									<td>젖병소독, 아이 물건 정리정돈, 이유식식기류 설거지, 아이 옷 세탁(주2회)</td>
+								</tr>
+								<tr>
+									<td rowspan="4" class="t_strong">가사겸<br />
+									  베이비시터 업무</td>
+									<td style="text-align: center;">청소관리</td>
+									<td>청소기 돌리기, 마대 걸레(스팀청소기)</td>
+								</tr>
+								<tr>
+									<td style="text-align: center;">세탁관리</td>
+									<td>세탁기 돌리기 및 건조 후 개어놓기</td>
+								</tr>
+								<tr>
+									<td style="text-align: center;">주방관리</td>
+									<td>저녁 밥 짓기, 밑반찬 만들기, 설거지</td>
+								</tr>
+								<tr>
+									<td style="text-align: center;">제외부분</td>
+									<td>다림질, 베란다, 창문, 신발장, 화장실 청소 및 김장, 장보기, 잔치 상차림, 이불빨래, 커튼 세탁,<br/>
+									장난감 세척, 육아 매트 세척, 어른 옷 삶고 손빨래는 제외됩니다.</td>
+								</tr>
+							</tbody>
+					</table>
+
+					<ul class="sub2_3addTxt1">
+						<li>* 영유아 베이비시터는 가사업무를 일체 지원하지 않는다.</li>
+						<li>* 가사겸 베이비시터는 지정된 가사업무 외에 서비스가 지원되지 않습니다.</li>
+						<li>* 가사겸 베이비시터는 가사 서비스를 아이 낮잠 자는 시간에만 제공됩니다.</li>
+						<li>* 부모님 동의하에 할 수 있는 업무는 배변훈련, 식사예절, 실외놀이 및 산책, 병원 및 보건소가기, 투약하기입니다.</li>
+					</ul>
+				</div>
+
+				<div class="sub2_3_tc">
+
+					<table summary="교육내용,교육시간" class="sub2_3_table1">
+						<caption>교육과정</caption>
+							<thead>
+								<tr>
+									<th scope="col" style="width:18%;">시간</th>
+									<th style="" scope="col">업무내용</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="t_strong">오전</td>
+									<td>실내환경 점검 및 환기<br />
+									돌보기-안아주기,기저귀 갈기, 오전간식, 잠재우기</td>
+								</tr>
+								<tr>
+								  <td class="t_strong">점심</td>
+									<td>이유식 제조, 수유 및 이유식, 점심식사,<br />
+									아기 식사 이후 건강관리 및 위생관리(젓병소독,식기세척)</td>
+								</tr>
+								<tr>
+								  <td class="t_strong">오후</td>
+									<td>연령별 놀이(동화,신체,미술,감각,음악,동화 등)<br />
+									건강관리-목욕,베이비맛사지,기저귀 갈기<br />
+									돌보기-수유 및 이유식,오후간식,안아주기,기저귀 갈기,잠재우기<br />
+									정리정돈 및 육아수첩 작성</td>
+								</tr>
+							</tbody>
+					</table>
+
+					<ul class="sub2_3addTxt1">
+					  <li>* 연령대/서비스 제공 시간/유형에 따라 내용이 다를 수 있습니다.</li>
+
+					</ul>
+				</div>
+
+			</div><!--msub_container end-->
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<footer>
+		<div class="fbarea">
+			<p class="finfo">상호:닥터맘 ㅣ 대표자:고현진 ㅣ 사업자등록번호:501-96-65950 ㅣ 주소:서울시 서초구 서초대로 24길 9,2층(방배동) ㅣ 국내유료직업소사업자등록번호:2015-3210155-14-5-00018 ㅣ 통신판매신고번호:제2015-서울서초-1061호 ㅣ 개인정보관리책임자:고현진</p>
+			
+			<address>COPYRIGHT ⓒ DORTORMAM ALL RIGHTS RESREVED.</address>
+		</div>
+	</footer>
+
+</div><!--m_wrap 해더,컨테이너,푸터 전체 감싼-->
+
+</body>
+</html>

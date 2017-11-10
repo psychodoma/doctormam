@@ -1,0 +1,16 @@
+2017-01-05 12:19:49==>https://www.allthegate.com/payment/mobilev2/transaction/ansim.jsp?storeID=&trackingID=cc4ddc09aa18feb957e5dd31ac2854b9ed0d65aeb20975731445f3005281bba3&type=approve&
+2017-01-05 12:19:50==>
+
+
+
+
+
+
+
+
+
+{"message":"ANSIM 응답","status":"ok","data":{"AdmTime":"20170105121949","EscrowSendNo":"","DealWon":"000001000000","DealNo":"689321","Success":"y","Code":"0610","CardType2":"0400","StoreId":"khjinnurse","OrderNo":"1134","CardName":"삼성","SendNo":"689321","CardName2":"삼성","CardType":"0400","AdmNo":"35525422","AgentNo":"162252603","PayType":"card","CardPartialMm":"3","DeviId":"9000400001","OrdNo":"1134","Amt":"1000000","EscrowYn":"","NetCancelId":"AEGIS_VISAkhjinnurse_20170105121617131026","AuthTy":"card","SubTy":"visa3d"},"code":"200"}
+
+2017-01-05 12:50:31==>https://www.allthegate.com/payment/mobilev2/transaction/isp.jsp?storeID=&trackingID=de731766b4ea2bd7bb20f9ba4910e2655a525a290cb7322ecb0eeb853e4a1acd&type=approve&
+2017-01-05 12:50:33==>{"message":"ISP 승인 응답","status":"ok","data":{"FailReason":"1회사용금액초과(한도초과)","AdmTime":"","StoreId":"khjinnurse","DealWon":"1000000","SendNo":"1134","DealNo":"1134","CardType":"0100","Success":"n","Code":"0610","AdmNo":"","PayType":"card","CardPartialMm":"03","DeviId":"9000400001","OrdNo":"1134","Amt":"1000000","EscrowYn":"","NetCancelId":"AEGIS_ISP_khjinnurse_20170105124948368539","AuthTy":"card","SubTy":"isp"},"code":"200"}
+

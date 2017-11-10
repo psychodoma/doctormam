@@ -1,0 +1,389 @@
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	*zoom: 1;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+
+.t_roll .bx-wrapper {position: relative; margin: 0 auto; padding: 0; *zoom: 1;}
+
+.t_roll .bx-wrapper img {
+	max-width: 158px; 
+	max-height: 156px;
+	display: block; 
+	border: 5px solid #ece6cc;
+}
+
+
+
+
+.f_partner .bx-wrapper .bx-viewport{
+	margin-left: 0%;
+    width: 100% !important;
+}
+
+
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: 5%;;
+	width: 100%;
+}
+
+/* LOADER */
+
+/*.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}*/
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #e0c0ef;
+	text-indent: -9999px;
+	display: block;
+	width: 13px;
+	height: 13px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 50px;
+}
+
+
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #7e1bb5;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: 3%;
+	background: url(images/controls1.png) no-repeat 0px 0px;
+}
+
+.bx-wrapper .bx-next {
+	right: 3%;
+	background: url(images/controls1.png) no-repeat -45px 0px;
+}
+
+.bx-wrapper .bx-prev:active {
+	background-position: 0px -80px;
+}
+
+.bx-wrapper .bx-next:active {
+	background-position: -45px -80px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    outline: 0;
+    width: 45px;
+    height: 80px;
+    text-indent: -9999px;
+    z-index: 50;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+
+
+
+
+
+
+/* DIRECTION CONTROLS (NEXT / PREV) �߰��׽�Ʈ */
+
+.t_roll .bx-wrapper .bx-prev {left: -45px; background: url(images/controls1.png) no-repeat 0px 0px;}
+
+.t_roll .bx-wrapper .bx-next {right: -45px; background: url(images/controls1.png) no-repeat -50px 0px;}
+
+.t_roll .bx-wrapper .bx-prev:hover {background-position: 0px -63px;}
+
+.t_roll .bx-wrapper .bx-next:hover {background-position: -50px -63px;}
+
+.t_roll .bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 45%;
+	margin-top: -16px;
+	outline: 0;
+	width: 32px;
+	height: 52px;
+	text-indent: -9999px;
+	z-index: 9999;
+}
+
+.t_roll .bx-wrapper .bx-controls-direction a.disabled {display: none;}
+
+
+
+
+/*page*/
+.t_roll .bx-wrapper .bx-pager,
+.t_roll .bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -40px;
+	width: 100%;
+}
+
+.t_roll .bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+}
+
+.t_roll .bx-wrapper .bx-pager .bx-pager-item,
+.t_roll .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.t_roll .bx-wrapper .bx-pager.bx-default-pager a {
+	background: #b5b5b5;
+	text-indent: -9999px;
+	display: block;
+	width: 13px;
+	height: 13px;
+	margin: 0 5px;
+	outline: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 50px;
+}
+
+.t_roll .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.t_roll .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #272727;
+}
+
+/*-------------------------------------*/
+
+
+
+
+
+
+
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.f_partner .bx-wrapper .bx-controls-auto{
+	text-align: left;
+}
+
+.f_partner .bx-wrapper .bx-controls-auto{
+	position: absolute;
+    bottom: 17px;
+    width: 6%;
+    left: -66px;
+}
+
+
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+
+
+
+
+
+
+.f_partner .bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 19px;
+	height: 19px;
+	outline: 0;
+	background: url(images/controls1.png) -92px -20px no-repeat;
+	margin: 0 3px;
+}
+
+.f_partner .bx-wrapper .bx-controls-auto .bx-start:hover,
+.f_partner .bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -92px 0;
+}
+
+.f_partner .bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 19px;
+	height: 19px;
+	outline: 0;
+	background: url(images/controls1.png) -92px -41px no-repeat;
+	margin: 0 3px;
+}
+
+.f_partner .bx-wrapper .bx-controls-auto .bx-stop:hover,
+.f_partner .bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -92px -61px;
+}
+
+
+
+
+
+
+
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+
+
+
+
+
+
+/*서브롤링 애로우,도트 삭제하기*/
+.bx-wrapper1 .bx-controls-direction{display: none;}
+.bx-wrapper1 .bx-default-pager{display: none;}
+
+
+
+.slider1 a:hover{text-decoration:none;}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px){
+	.f_partner .bx-wrapper .bx-viewport {
+		margin-left: 11%;
+		width: 80% !important;
+	}
+
+}
+
+@media screen and (max-width: 360px){
+	.f_partner .bx-wrapper .bx-viewport {
+		margin-left: 25%;
+		width: 67% !important;
+	}
+
+}

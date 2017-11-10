@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="Author" content=""/>
+<meta name="Keywords" content=""/>
+<meta name="Description" content=""/>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+<script type="text/javascript" src="js/quick.js"></script>
+
+<script type="text/javascript" src="js/form_jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+
+<script>
+  $( function() {
+    $( "#datepicker,#datepicker1,#datepicker2" ).datepicker({
+      showOn: "button",
+      buttonImage: "img/sub4/sub4_1_1/calendar.gif",
+      buttonImageOnly: true,
+      buttonText: "Select date"
+    });
+  });
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/sub.css"/>
+
+
+
+
+<title>닥더맘</title>
+</head>
+<body>
+	<div id="quick">
+		<ul>
+			<li><a href=""><img src="img/main/quick1.jpg" alt=""/></a></li>
+			<li><a href=""><img src="img/main/quick2.jpg" alt=""/></a></li>
+			<li><a href=""><img src="img/main/quick3.jpg" alt=""/></a></li>
+			<li><a href=""><img src="img/main/quick4.jpg" alt=""/></a></li>
+			<li><a href=""><img src="img/main/quick5.jpg" alt=""/></a></li>
+			<li><a href=""><img src="img/main/quick6.jpg" alt=""/></a></li>
+		</ul>
+	</div>	
+
+
+
+	<div id="header_tBG">
+		<form method="post" action="" class="head_sear">
+			<fieldset class="fr_field">
+				<legend>검색창</legend>
+				
+				<ul id="login">
+					<li class="ser_title">지사검색</li>
+					<li class="idbox">
+						<label for="loginid" class="hide">아이디</label>
+						<input type="text" class="searchbar" title="아이디입력" name="loginid" id="loginid"/>
+					</li>
+					<li class="loginbtn">
+						<input type="image" src="img/main/search.png" alt="로그인"  title="로그인" />
+					</li>
+				</ul>
+			</fieldset>
+		</form>
+	</div>
+
+	<div id="header_mBG">
+		<h1><a href="main.html"><img src="img/main/logo.jpg" alt="로고"/></a></h1>
+		<ul class="navi">
+			<li><a href="">닥터맘 소개</a></li>
+			<li><a href="">산후관리사</a></li>
+			<li><a href="">서비스 안내</a></li>
+			<li><a href="">이용요금</a></li>
+			<li><a href="">커뮤니티</a></li>
+			<li style="margin-right:0;"><a href="">지점안내</a></li>
+		</ul>
+	</div>
+
+	<div id="header_bBG">
+		<ul>
+			<li><a href=""><img src="img/main/navi2_1.jpg" alt="산후도우미"/></a></li>
+			<li><a href=""><img src="img/main/navi2_2.jpg" alt="이용요금안내"/></a></li>
+			<li><a href=""><img src="img/main/navi2_3.jpg" alt="요금계산"/></a></li>
+			<li style="padding-right:2px;"><a href=""><img src="img/main/navi2_4.jpg" alt="예약하기"/></a></li>
+		</ul>
+	</div>
+
+
+
+
+
+
+
+	<div class="subcont_top"><!--100%-->
+		<p class="subslo_img"></p>
+
+		<div class="subcontent"><!--1000px-->
+
+			<div class="sub_leftNavi">
+				<h3><img src="img/sub/sub4_title.jpg" alt="이용요금"/></h3>
+				<ul class="leftNavi">
+					<li class="leftActive"><a href="#">온라인 예약</a></li>
+					<li ><a href="#">서비스 요금 모두 보기</a></li>
+				</ul>
+
+				<ul class="leftInfo">
+					<li><img src="img/sub/sub_time.jpg" alt="근무시간 평일:09:00 ~ 19:00, 토요일:09:00 ~ 16:00"/></li>
+					<li><img src="img/sub/sub_call.jpg" alt="고객센터 02-903-2222"/></li>
+				</ul>
+			</div>
+
+
+			<div class="sub_cont1">
+				<h3 class="subpage_name">산후도우미 온라인 예약</h3>
+				<p class="subpage_slog"><img src="img/sub1/sub1_4/sub1_4_banner1.jpg" alt="사랑스런 아이의 모습 오랜돔동으로 간직할 수 있는 서비스로 만들어 드리겠습니다."/></p>
+				
+				<div class="s_cont">
+					<!--<h4 class=""><img src="img/sub4/sub4_1_1/sub4_1_1title1.png" alt=""/></h4>-->
+
+					<form method="post" action="" name="" class="sub4_1_fc">
+						<fieldset class="">
+							<legend>산후도우미 예약하기</legend>
+
+							<table class="sub4_1_table" summary="이름 사는지역 연락처를 작성해주세요">
+								<caption>지원하기</caption>
+								<colgroup>
+									<col width="155px"/>
+									<col width="*"/>
+								</colgroup>
+
+								<tbody>
+									<tr>
+										<th>이름</th>
+										<td><input type="text" class="sub4_1_input" title="아이디입력" name="name" id=""/></td>
+									</tr>
+									<tr>
+										<th>생년월일</th>
+										<td><input type="text" class="sub4_1_input" title="아이디입력" name="name" id=""/></td>
+									</tr>
+									<tr>
+										<th>전화번호</th>
+										<td>
+											<ul class="sub4_1_tell">
+												<li>
+													<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+													<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="sub4_1_select">
+														<option value="">010</option>
+														<option value="">011</option>
+														<option value="">016</option>
+														<option value="">017</option>
+														<option value="">018</option>
+														<option value="">019</option>
+													</select>
+												</li>
+												<li><input type="text" class="sub4_1_input" title="두번째 자리" name="tell1" id=""/><span class="hypn">-</span></li>
+												<li><input type="text" class="sub4_1_input" title="마지막 자리" name="tell2" id=""/></li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>이메일</th>
+										<td><input type="text" class="sub4_1_input_b" title="이메일입력" name="tell" id=""/></td>
+									</tr>
+									<tr>
+										<th>주소</th>
+										<td>
+											<ul class="sub4_1_add">
+												<li>
+													<input type="text" class="sub4_1_input_s" title="아이디입력" name="add" id="" readonly="readonly"/><span class="hypn">-</span>
+													<input type="button" value="우편번호" class="sub4_1add_btn" onclick=""/>
+												</li>
+												<li>
+													<input type="text" class="sub4_1_input_b" title="기본주소" name="address1" id="" readonly="readonly"/><span class="sub4_1addTxt">기본주소</span>
+												</li>
+												<li>
+													<input type="text" class="sub4_1_input_b" title="나머지주소" name="address2" id=""/><span class="sub4_1addTxt">나머지주소</span>
+												</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>분만예정일</th>
+										<td><input type="text" id="datepicker"></td>
+									</tr>
+									<tr>
+										<th>분만경력</th>
+										<td>
+											<ul class="sub4_1_delivery">
+												<li>
+													<input type="radio" id="delivery1" name="delivery" title="첫째출산예정"/>
+													<label for="delivery1">첫째출산예정</label>
+												</li>
+												<li>
+													<input type="radio" id="delivery2" name="delivery" title="둘째출산예정"/>
+													<label for="delivery2">둘째출산예정</label>
+												</li>
+												<li>
+													<input type="radio" id="delivery3" name="delivery" title="셋째출산예정"/>
+													<label for="delivery3">셋째출산예정</label>
+												</li>
+												<li>
+													<input type="radio" id="delivery4" name="delivery" title="그이상"/>
+													<label for="delivery4">그이상</label>
+												</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>서비스지역</th>
+										<td>
+											<label for="branch" class="hide">분류 선택(라벨)</label>
+											<select title="검색 분류 선택" name="branch" id="branch" class="sub4_1_select_branch">
+												<option value="">강남 송파점</option>
+												<option value="">강서 양천점</option>
+												<option value="">강북 동대문점</option>
+												<option value="">관악,영등포점</option>
+												<option value="">마포 은평점</option>
+												<option value="">용산 성동점</option>
+												<option value="">인천</option>
+												<option value="">부천 광명점</option>
+												<option value="">용인 수지점</option>
+												<option value="">수원</option>
+
+												<option value="">평택 안성점</option>
+												<option value="">안양 안산점</option>
+												<option value="">성남 분담점</option>
+												<option value="">구리 남양주점</option>
+												<option value="">김포 고양점</option>
+												<option value="">대전 세종점</option>
+												<option value="">천안 아산점</option>
+												<option value="">대구 경산점</option>
+												<option value="">구미 칠곡점</option>
+												<option value="">북부산점</option>
+
+												<option value="">화성 동탄점</option>
+												<option value="">본사</option>
+												<option value="">전북점</option>
+												<option value="">울산점</option>
+												<option value="">포항 경주점</option>
+												<option value="">강동점</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<th>서비스시작일</th>
+										<td><input type="text" id="datepicker1"> ~ <input type="text" id="datepicker2"><span class="sub4_1addTxt">까지</span></td>
+									</tr>
+									<tr>
+										<th>조리원여부</th>
+										<td>
+											<ul class="sub4_1_coop">
+												<li>
+													<input type="radio" id="delivery1" name="coop" title="1주"/>
+													<label for="coop1">1주</label>
+												</li>
+												<li>
+													<input type="radio" id="delivery2" name="coop" title="2주"/>
+													<label for="coop2">2주</label>
+												</li>
+												<li>
+													<input type="radio" id="delivery3" name="coop" title="3주"/>
+													<label for="coop3">3주</label>
+												</li>
+												<li>
+													<input type="radio" id="delivery4" name="coop" title="4주"/>
+													<label for="coop4">4주</label>
+												</li>
+												<li>
+													<input type="radio" id="delivery5" name="coop" title="안감"/>
+													<label for="coop5">안감</label>
+												</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>서비스유형</th>
+										<td>
+											<label for="service1" class="hide">분류 선택(라벨)</label>
+											<select title="검색 분류 선택" name="service1" id="service1" class="sub4_1_select_service1">
+												<option value="">입주</option>
+												<option value="">출퇴근</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<th>서비스종류</th>
+										<td>
+											<label for="service2" class="hide">분류 선택(라벨)</label>
+											<select title="검색 분류 선택" name="service2" id="service1" class="sub4_1_select_service1">
+												<option value="">베이직</option>
+												<option value="">베스트</option>
+												<option value="">프리미엄</option>
+												<option value="">명품플러스</option>
+												<option value="">바우처</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<th>서비스기간</th>
+										<td>
+											<ul class="sub4_1_service3">
+												<li>
+													<ul class="sub4_1_service3_1">
+														<li>
+															<input type="radio" id="service3_1_1" name="service3" title="1주"/>
+															<label for="service3_1_1">1주</label>
+														</li>
+														<li>
+															<input type="radio" id="service3_1_2" name="service3" title="2주"/>
+															<label for="service3_1_2">2주</label>
+														</li>
+														<li>
+															<input type="radio" id="service3_1_3" name="service3" title="3주"/>
+															<label for="service3_1_3">3주</label>
+														</li>
+														<li>
+															<input type="radio" id="service3_1_4" name="service3" title="4주 이상"/>
+															<label for="service3_1_4">4주 이상</label>
+														</li>
+													</ul>
+												</li>
+
+												<li>
+													<ul class="sub4_1_service3_2">
+														<li>
+															<input type="radio" id="service3_1_5" name="service3_1" title="5일제"/>
+															<label for="service3_1_5">5일제</label>
+														</li>
+														<li>
+															<input type="radio" id="service3_1_6" name="service3_1" title="6일제"/>
+															<label for="service3_1_6">6일제</label>
+														</li>
+													</ul>
+												</li>
+
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>CCTV 유무</th>
+										<td>
+											<ul class="sub4_1_cctv">
+												<li>
+													<input type="radio" id="cctv1" name="cctv" title="1주"/>
+													<label for="cctv1">있다</label>
+												</li>
+												<li>
+													<input type="radio" id="cctv2" name="cctv" title="2주"/>
+													<label for="cctv2">없다</label>
+												</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>어머님직업</th>
+										<td><input type="text" class="sub4_1_input" title="어머니직업" name="mamjob" id=""/></td>
+									</tr>
+									<tr>
+										<th>기타가족</th>
+										<td>
+											<ul class="sub4_1_cctv">
+												<li>
+													<input type="checkbox" id="cctv1" name="cctv" title="1주"/>
+													<label for="cctv1">큰아이</label>
+												</li>
+												<li>
+													<input type="checkbox" id="cctv2" name="cctv" title="2주"/>
+													<label for="cctv2">부모님</label>
+												</li>
+												<li>
+													<input type="checkbox" id="cctv1" name="cctv" title="1주"/>
+													<label for="cctv1">없음</label>
+												</li>
+												<li>
+													<input type="text" class="sub4_1_input" title="아이디입력" name="tell" id=""/>
+													<label for="cctv2">그외</label>
+												</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>비밀번호</th>
+										<td><input type="text" class="sub4_1_input" title="비밀번호 입력" name="passward" id=""/></td>
+									</tr>
+									<tr>
+										<th>첨부파일</th>
+										<td><input type="file" class="realFile" name="file[]" id="" onchange=""/></td>
+									</tr>
+								</tbody>
+							</table>
+						</fieldset>
+
+						<fieldset class="fild_1">
+							<legend>개인정보 수집 및 이용안내</legend>
+							<label for="" class="fild_1_title">개인정보 수집 및 이용안내</label>
+							<textarea name="개인정보 수집 이용안내" id="" cols="" rows="16" class="fild_1_tex" readonly="readonly">닥터맘 이용약관 제 15조【 개인정보보호 】
+
+1) '닥터맘'은 이용자의 정보수집 시 서비스 제공에 필요한 최소한의 정보를 수집합니다. 다음 사항을 필수사항으로 하며 그 외 사항은 선택사항으로 합니다.
+
+① 성명
+② 생년월일
+③ 주소
+④ 자택전화번호 / 핸드폰 번호
+
+2) 제공된 개인정보는 당해 이용자의 동의 없이 목적 외의 이용이나 제3자에게 제공할수 없으며, 이에 대한 모든 책임은 ‘닥터맘’이 집니다. 단, 다음의 경우에는 예외로 합니다.
+① 임대용품 및 사은품 배송시 배송업체에게 배송에 필요한 최소한의 이용자의 정보(성명, 주소, 전화번호)를 알려주는 경우
+② 통계작성, 학술연구 또는 시장조사를 위한 것으로서 특정 개인을 식별할 수 없는형태로 제공하는 경우
+③ ‘닥터맘’은 개인정보 보호를 위하여 개인정보보호 책임자를 지정 운영합니다.</textarea>
+						
+							<p class="fild_1_agree">
+								<input type="checkbox" name="" id="" value="" class="">
+								<label for="agreeprivate" id="agreeprivate">상담신청 및 문의(예약)을 위한 개인정보를 수집하는데 동의합니다.</label>
+							</p>
+						</fieldset>
+
+						<fieldset class="fild_1">
+							<legend>기타문의</legend>
+
+							<label for="" class="fild_1_title">기타문의</label>
+							<textarea name="" id="" cols="" rows="16" class="fild_1_tex"></textarea>
+						</fieldset>
+
+
+
+						<ul class="sub4_1_1_list_btn">
+							<li><input type="button" value="저장" onclick=""/></li>
+							<li><input type="button" value="취소" onclick=""/></li>
+							<li><input type="button" value="목록" onclick=""/></li>
+						</ul>
+					</form>
+				</div>
+			</div>
+
+		</div><!--subcontent 1000px-->
+
+	</div><!--subcont_top 100%-->
+
+
+
+
+
+
+
+
+
+	<div class="banner4bg">
+		<p><img src="img/main/banner4.png" alt="사랑스런 아기의 산후관리사 닥터맘 산후도우미"></p>
+	</div>
+
+	<div class="footerBG">
+		<footer>
+			<h1><a href="#"><img src="img/main/footer_logo.jpg" alt="하단로고"></a></h1>	
+
+			<ul>
+				<li><img src="img/main/footer_tell1.jpg" alt="대표전화 02-903-2222"></li>
+				<li><img src="img/main/footer_tell2.jpg" alt="대표전화 02-3144-2585"></li>
+			</ul>
+			
+			<address>상호:닥터맘 ㅣ 대표자:고현진 ㅣ 사업자 등록번호:501-96-65950 ㅣ 주소:서울시 서초구 서초대로 24길 9,2층(방배동) ㅣ 팩스번호:02-326-2556<br/>
+			국내유료직업소사업자등록번호:2015-3210155-14-5-00018 ㅣ 통신판매신고번호:제2015-서울서초-1061호 ㅣ 개인정보관리책임자:고현진</address>		
+
+			<p class="copy">COPYRIGHT ⓒ DORTORMAM ALL RIGHTS RESREVED.</p>
+		</footer>	
+	</div>
+
+</body>
+</html>

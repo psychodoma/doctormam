@@ -1,0 +1,485 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="Author" content=""/>
+<meta name="Keywords" content=""/>
+<meta name="Description" content=""/>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+
+
+
+<!-- bxSlider Javascript file -->
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<!--<script type="text/javascript" src="js/quick.js"></script>-->
+
+
+<!-- bxSlider CSS file -->
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"/>
+
+
+
+
+<script>
+	$(document).ready(function(){
+			$('.bxslider').bxSlider({
+			auto: true,
+			autoControls: false
+		});
+	});
+
+	$(document).ready(function(){
+		    $('.slider1').bxSlider({
+			  slideWidth: 158,
+			  minSlides: 5,
+			  maxSlides: 5,
+			  slideMargin: 40,
+			  auto: true
+		  });
+	});
+</script>
+
+<script> 
+$(document).ready(function(){
+    $("#ban1").click(function(){
+		$("#ban2").toggle(500,function(){});
+    })
+})
+</script> 
+
+
+
+
+
+
+<title>닥더맘</title>
+</head>
+<body>
+<div class="al">
+	<div id="quick">
+		<ul class="quick_c">
+			<li><a href=""><img src="img/main/quick1.jpg" alt=""/></a></li>
+			<li><a href=""><img src="img/main/quick2.jpg" alt=""/></a></li>
+			<li><a href=""><img src="img/main/quick3.jpg" alt=""/></a></li>
+			<li style="position: relative;">
+				<img src="img/main/quick4.jpg" style="cursor:pointer;" id="ban1" alt=""/>
+
+				<div class="s_info" id="ban2">
+					<form method="post" action="" name="" class="quick_fc">
+						<fieldset class="">
+							<legend>산후도우미 예약하기</legend>
+							<table class="quick_table" summary="이름 사는지역 연락처를 작성해주세요">
+								<caption>지원하기</caption>
+								<colgroup>
+									<col width="70px"/>
+									<col width="*"/>
+								</colgroup>
+
+								<tbody>
+									<tr>
+										<th>이름</th>
+										<td><input type="text" class="quick_table_input" title="아이디입력" name="name" id=""/></td>
+									</tr>
+									<tr>
+										<th>전화번호</th>
+										<td>
+											<ul class="quick_table_tell">
+												<li>
+													<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+													<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="quick_table_select">
+														<option value="">010</option>
+														<option value="">011</option>
+														<option value="">016</option>
+														<option value="">017</option>
+														<option value="">018</option>
+														<option value="">019</option>
+													</select>
+												</li>
+												<li><input type="text" class="quick_table_input_s" title="두번째 자리" name="tell1" id=""/><span class="hypn">-</span></li>
+												<li><input type="text" class="quick_table_input_s" title="마지막 자리" name="tell2" id=""/></li>
+											</ul>
+										</td>
+									</tr>
+
+									<tr>
+										<th>내용</th>
+										<td>
+											<fieldset class="fild_1_n">
+												<legend>기타문의</legend>
+												<textarea name="" id="" cols="" rows="5" class="quick_tex_n"></textarea>
+											</fieldset>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<div class="quick_agree">
+								<p class="quick_agree1">
+									<input type="checkbox" name="" id="" value="" class="">
+									<label for="agreeprivate" id="agreeprivate">개인정보사용동의</label>
+								</p>
+								<p class="quick_agree_viwe">
+									<input type="button" name="" id="" value="보기" class="">
+								</p>
+							</div>
+
+							<div class="quick_ok">
+								<input type="button" value="상담하기" onclick=""/>
+							</div>
+
+						</fieldset>
+					</form>
+				</div>
+			</li>
+
+			<li><a href=""><img src="img/main/quick5.jpg" alt=""/></a></li>
+			<li><a href=""><img src="img/main/quick6.jpg" alt=""/></a></li>
+		</ul>
+	</div>	
+
+
+
+	<div id="header_tBG">
+		<form method="post" action="" class="head_sear">
+			<fieldset class="fr_field">
+				<legend>검색창</legend>
+				
+				<ul id="login">
+					<li class="ser_title">지사검색</li>
+					<li class="idbox">
+						<label for="loginid" class="hide">아이디</label>
+						<input type="text" class="searchbar" title="아이디입력" name="loginid" id="loginid"/>
+					</li>
+					<li class="loginbtn">
+						<input type="image" src="img/main/search.png" alt="로그인"  title="로그인" />
+					</li>
+				</ul>
+			</fieldset>
+		</form>
+	</div>
+
+	<div id="header_mBG">
+		<h1><a href="main.html"><img src="img/main/logo.jpg" alt="로고"/></a></h1>
+		<ul class="navi">
+			<li><a href="">닥터맘 소개</a></li>
+			<li><a href="">산후관리사</a></li>
+			<li><a href="">서비스 안내</a></li>
+			<li><a href="">이용요금</a></li>
+			<li><a href="">커뮤니티</a></li>
+			<li style="margin-right:0;"><a href="">지점안내</a></li>
+		</ul>
+	</div>
+
+	<div id="header_bBG">
+		<ul>
+			<li><a href=""><img src="img/main/navi2_1.jpg" alt="산후도우미"/></a></li>
+			<li><a href=""><img src="img/main/navi2_2.jpg" alt="이용요금안내"/></a></li>
+			<li><a href=""><img src="img/main/navi2_3.jpg" alt="요금계산"/></a></li>
+			<li style="padding-right:2px;"><a href=""><img src="img/main/navi2_4.jpg" alt="예약하기"/></a></li>
+		</ul>
+	</div>
+
+	<div class="main_wrap"><!--100%-->
+		<ul class="bxslider">
+			<li><img src="img/main/main_visual1.jpg" /></li>
+			<li><img src="img/main/main_visual1.jpg" /></li>
+			<li><img src="img/main/main_visual1.jpg" /></li>
+		</ul>
+	</div>
+
+
+
+
+	<div>
+		<div class="maincontent">
+
+			<div class="content1">
+				<div class="cont1">
+					<div class="main_tab1">
+						<ul class="tab_title1">
+							<li><a class="tab_link active" href="#tab1">닥터맘</a></li>
+							<li style="margin-left:-1px;"><a href="#tab2" ids="1" class="tab_link">닥터베베</a></li>
+						</ul>
+
+						<div class="tabDetails" style="border:none; margin:0">
+							<div id="tab1" class="tabContents">
+								<p><a href="#"><img src="img/main/bebe.jpg" alt="닥터맘"/></a></p>
+							</div>
+
+							<div id="tab2" class="tabContents">
+								<p><a href="#"><img src="img/main/mama.jpg" alt="닥터베베"/></a></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="main_tab2">
+						<ul class="tab_title1">
+							<li><a class="tab_link active" href="#tab11">고객센터</a></li>
+							<li style="margin-left:-1px;"><a href="#tab22" class="tab_link">상담시간</a></li>
+						</ul>
+
+						<div class="tabDetails" style="height:120px;">
+							<div id="tab11" class="tabContents">
+								<ul class="tabst_li">
+									<li>대표전화<span class="tellpo">02-903-2222</span></li>
+									<li>팩스번호<span class="tell">02-326-2556</span></li>
+									<li class="holyday">일요일,공휴일은 휴무입니다.</li>
+								</ul>
+							</div>
+
+							<div id="tab22" class="tabContents">
+								<ul class="tabst_li">
+									<li>12:00 ~ 12:00</li>
+									<li>12:00 ~ 12:00</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+				<div class="cont2">
+					<div class="banner1">
+						<ul class="banner1_img_btn">
+							<li><a href="#"><img src="img/main/banner1_1.jpg" alt="모유수유 클리닉"/></a></li>
+							<li><a href="#"><img src="img/main/banner1_2.jpg" alt="바우처 서비스"/></a></li>
+							<li><a href="#"><img src="img/main/banner1_3.jpg" alt="글로벌 서비스"/></a></li>
+							<li><a href="#"><img src="img/main/banner1_4.jpg" alt="닥터베베"/></a></li>
+						</ul>
+
+						<div class="banner1_tab1">
+							<p class="more"><a href="#"><img src="img/main/more.jpg" alt="더보기"/></a></p>
+
+							<ul class="tab_title2">
+								<li><a class="tab_link active" href="#tab111">공지사항</a></li>
+								<li style="margin-left:-1px;"><a href="#tab222" ids="1" class="tab_link">고객상담실</a></li>
+							</ul>
+
+							<div class="tabDetails1">
+								<div id="tab111" class="tabContents1">
+									<ul class="tabst_li1">
+										<li>
+											<p class="t1_txt"><a href="">울산지사 교육 현장입니다.^^</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+									</ul>
+								</div>
+
+								<div id="tab222" class="tabContents1">
+									<ul class="tabst_li1">
+										<li>
+											<p class="t1_txt"><a href="">울산지사 교육 현장입니다.^^</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+
+
+
+
+						<div class="banner1_tab2">
+							<p class="more"><a href="#"><img src="img/main/more.jpg" alt="더보기"/></a></p>
+
+							<ul class="tab_title2">
+								<li><a class="tab_link active" href="#tab1111">이용후기</a></li>
+								<li style="margin-left:-1px;"><a href="#tab2222" ids="1" class="tab_link">예약신청</a></li>
+							</ul>
+
+							<div class="tabDetails1">
+								<div id="tab1111" class="tabContents1">
+									<ul class="tabst_li1">
+										<li>
+											<p class="t1_txt"><a href="">우명애 관리사님 감사드립니다^^</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">정경자 이모님을 추천합니다.</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">권영미관리사님!감사드립니다♥</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">이희순 이모님 정말 감사했어요~~^^</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">김정애 이모님 6주동안 감사했습니다</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">최여진 이모님 감사합니다^^</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+									</ul>
+								</div>
+
+								<div id="tab2222" class="tabContents1">
+									<ul class="tabst_li1">
+										<li>
+											<p class="t1_txt"><a href="">울산지사 교육 현장입니다.^^</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+										<li>
+											<p class="t1_txt"><a href="">닥터맘 고양김포파주지사 이영표님과</a></p>
+											<p class="t1_date">[2016.06.30]</p>
+										</li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="content2">
+				<div class="cont3">
+					<div class="contst_li">
+						<h3><img src="img/main/main_s_title1.jpg" alt="닥터맘교육"/></h3>
+						<ul>
+							<li><a href="#"><img src="img/main/banner2_1.jpg" alt="닥터맘 산모교실"/></a></li>
+							<li><a href="#"><img src="img/main/banner2_2.jpg" alt="산후조리사 양성교육"/></a></li>
+							<li><a href="#"><img src="img/main/banner2_3.jpg" alt="베이비시터 양성교육"/></a></li>
+						</ul>
+					</div>
+					
+					
+					<div class="contst_li1">
+						<h3><img src="img/main/main_s_title2.jpg" alt="닥터맘 갤러리"/></h3>
+						<ul>
+							<li><a href="#"><img src="img/main/test_ph_1.jpg" alt=""/></a></li>
+							<li><a href="#"><img src="img/main/test_ph_2.jpg" alt=""/></a></li>
+							<li><a href="#"><img src="img/main/test_ph_3.jpg" alt=""/></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="cont4">
+					<ul class="contst_li2">
+						<li><a href="#"><img src="img/main/banner3_1.jpg" alt="커뮤니티"/></a></li>
+						<li><a href="#"><img src="img/main/banner3_2.jpg" alt="닥터맘 나눔프로젝트"/></a></li>
+					</ul>
+
+					<ul class="contst_li3">
+						<li><a href="#"><img src="img/main/banner3_3.jpg" alt="전국지사모집 02-903-2222"/></a></li>
+						<li><a href="#"><img src="img/main/banner3_4.jpg" alt="협력업체 안내"/></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+		<div class="t_roll_bg">
+			<h3 class="t_roll_title"><img src="img/main/main_s_title3.jpg" alt="닥터맘지사 안내"/></h3>
+			<div class="t_roll">
+				<div class="slider1">
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people1.jpg"><span class="t_roll_txt">용산 성동점</span></a></div>
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people2.jpg"><span class="t_roll_txt">인천점</span></a></div>
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people3.jpg"><span class="t_roll_txt">부천 광명점</span></a></div>
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people4.jpg"><span class="t_roll_txt">용인 수지점</span></a></div>
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people5.jpg"><span class="t_roll_txt">수원점</span></a></div>
+
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people6.jpg"><span class="t_roll_txt">테스트1</span></a></div>
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people7.jpg"><span class="t_roll_txt">테스트2</span></a></div>
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people8.jpg"><span class="t_roll_txt">테스트3</span></a></div>
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people9.jpg"><span class="t_roll_txt">테스트4</span></a></div>
+					<div class="slide"><a href=""><img src="img/sub6/sub6_1/people10.jpg"><span class="t_roll_txt">테스트5</span></a></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+	<div class="banner4bg">
+		<p><img src="img/main/banner4.png" alt="사랑스런 아기의 산후관리사 닥터맘 산후도우미"></p>
+	</div>
+
+	<div class="footerBG">
+		<footer>
+			<h1><a href="#"><img src="img/main/footer_logo.jpg" alt="하단로고"></a></h1>	
+
+			<ul>
+				<li><img src="img/main/footer_tell1.jpg" alt="대표전화 02-903-2222"></li>
+				<li><img src="img/main/footer_tell2.jpg" alt="대표전화 02-3144-2585"></li>
+			</ul>
+			
+			<address>상호:닥터맘 ㅣ 대표자:고현진 ㅣ 사업자 등록번호:501-96-65950 ㅣ 주소:서울시 서초구 서초대로 24길 9,2층(방배동) ㅣ 팩스번호:02-326-2556<br/>
+			국내유료직업소사업자등록번호:2015-3210155-14-5-00018 ㅣ 통신판매신고번호:제2015-서울서초-1061호 ㅣ 개인정보관리책임자:고현진</address>		
+
+			<p class="copy">COPYRIGHT ⓒ DORTORMAM ALL RIGHTS RESREVED.</p>
+		</footer>	
+	</div>
+
+</div>
+</body>
+</html>

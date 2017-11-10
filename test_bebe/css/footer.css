@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.footerBG{background-color:#918f90; padding:35px 0 25px 0; min-width:1200px; text-align:center;}
+footer{width:1200px; margin:0 auto; display: inline-block;}
+
+.ft_logo{float: left; margin-right: 40px;}
+.adres{float:left; color: #e2e2e2; font-size: 14px; line-height: 22px; text-align:left;}
+.ft_link{float:right; margin-top: -14px;}
+
+
+
+address{margin-bottom: 10px;}
+
+.copy{letter-spacing: normal;}
+

@@ -1,0 +1,13 @@
+2017-03-27 10:03:58==>https://www.allthegate.com/payment/mobilev2/transaction/ansim.jsp?storeID=&trackingID=e2bb16b313c737e18138b1be219d0e877c8c204c1ef85bb2249fbafc7cbb480a&type=approve&
+2017-03-27 10:03:59==>
+
+
+
+
+
+
+
+
+
+{"message":"ANSIM 응답","status":"ok","data":{"AdmTime":"20170327100358","EscrowSendNo":"","DealWon":"000000390000","DealNo":"639531","Success":"y","Code":"0610","CardType2":"0500","StoreId":"khjinnurse","OrderNo":"2471","CardName":"신한","SendNo":"639531","CardName2":"신한","CardType":"0500","AdmNo":"49731166","AgentNo":"18570317","PayType":"card","CardPartialMm":"3","DeviId":"9000400001","OrdNo":"2471","Amt":"390000","EscrowYn":"","NetCancelId":"AEGIS_VISAkhjinnurse_20170327100240661695","AuthTy":"card","SubTy":"visa3d"},"code":"200"}
+

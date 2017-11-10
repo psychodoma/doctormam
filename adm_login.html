@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="Author" content=""/>
+<meta name="Keywords" content=""/>
+<meta name="Description" content=""/>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+<script type="text/javascript" src="js/quick.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+
+
+<title>닥더맘 관리자 로그인</title>
+</head>
+<body>
+
+	<div class="admin_wrap">
+		<div class="admin_con">
+			<h3>The Doctormam</h3>
+			<form name="flogin" id="flogin" action="" onsubmit="return flogin_submit(this);" method="post" class="login_fm">
+				<fieldset class="">
+					<legend>아이디와 비밀번호를 입력하세요.</legend>
+					<div class="login_box">
+						<dl class="ad_longin">
+							<dt class="ad_id">
+								<label for="userid" class="longin_txt">아이디</label>
+							</dt>
+							<dd>
+								<input type="text" id="mb_id" name="mb_id" required class="login_write" maxLength="20" title="아이디를 입력하세요"/>
+							</dd>
+						</dl>
+						<dl class="ad_pw">
+							<dt class="ad_pass">
+								<label for="userpw" class="longin_txt">비밀번호</label>
+							</dt>
+							<dd class="login_last">
+								<input type="password" id="mb_password" name="mb_password" required class="login_write" title="비밀번호를 입력하세요"/>
+							</dd>
+						</dl>
+					</div>
+				</fieldset>
+			</form>
+
+			<div class="login_btn">
+				<a href="javascript:$('#flogin').submit();">로그인</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

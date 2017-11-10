@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="Author" content=""/>
+<meta name="Keywords" content=""/>
+<meta name="Description" content=""/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+<script type="text/javascript" src="js/quick.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="css/sub.css"/>
+
+
+
+<title>닥더맘 요금계산</title>
+</head>
+<body>
+	<div class="charge_cont">
+		<form method="post" action="" name="" class="charge_fc">
+			<fieldset class="">
+				<legend>지원하기 양식</legend>
+
+				<table class="charge_table" summary="이름 사는지역 연락처를 작성해주세요">
+					<caption>지원하기</caption>
+					<colgroup>
+						<col width="155px"/>
+						<col width="*"/>
+					</colgroup>
+
+					<tbody>
+						<tr>
+							<th>서비스</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">선택하세요</option>
+									<option value="">베이직</option>
+									<option value="">베스트</option>
+									<option value="">프리미엄</option>
+									<option value="">명품플러스</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>서비스유형</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">선택하세요</option>
+									<option value="">출퇴근</option>
+									<option value="">입주형</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>서비스유형상세</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">선택하세요</option>
+									<option value="">출퇴근 5일제</option>
+									<option value="">출퇴근 6일제</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>이용기간</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">선택하세요</option>
+									<option value="">1주 (455,000원)</option>
+									<option value="">2주 (830,000원)</option>
+									<option value="">3주 (1,205,000원)</option>
+									<option value="">4주 (1,570,000원)</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>취학아동</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">유아원/취학 선택</option>
+									<option value="">1명 (4,000원)</option>
+									<option value="">2명 (8,000원)</option>
+									<option value="">3명 (12,,000원)</option>
+									<option value="">4명 (16,000원))</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>미취학아동</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">미취학 선택</option>
+									<option value="">1명 (7,000원)</option>
+									<option value="">2명 (14,000원)</option>
+									<option value="">3명 (21,,000원)</option>
+									<option value="">4명 (28,000원))</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>일요일(공휴일)</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">제외</option>
+									<option value="">1일추가 (80,000원)</option>
+									<option value="">2일추가 (160,000원)</option>
+									<option value="">3일추가 (240,,000원)</option>
+									<option value="">4일추가 (320,000원))</option>
+									<option value="">5일추가 (400,000원))</option>
+								</select>
+								<p class="charge_txt2">근무 9~16시간(출퇴근)</p>
+							</td>
+						</tr>
+						<tr>
+							<th>명절(설,추석 당일)</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">제외</option>
+									<option value="">1일추가 90,000원</option>
+									<option value="">2일추가 180,000원</option>
+									<option value="">3일추가 270,000원</option>
+									<option value="">4일추가 360,000원</option>
+									<option value="">5일추가 450,000원</option>
+								</select>
+								<p class="charge_txt2">근무 9~16시간(출퇴근)</p>
+							</td>
+						</tr>
+						<tr>
+							<th>쌍둥이</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">무</option>
+									<option value="">쌍둥이 (20,000원)</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>기타가족</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">선택하세요</option>
+									<option value="">1명 (4,000원)</option>
+									<option value="">2명 (8,000원)</option>
+									<option value="">3명 (12,000원)</option>
+									<option value="">4명명 (16,000원)</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>시간추가</th>
+							<td>
+								<label for="firstNumber" class="hide">분류 선택(라벨)</label>
+								<select title="검색 분류 선택" name="firstNumber" id="firstNumber" class="charge_select">
+									<option value="">이용시간</option>
+									<option value="">1시간 (9,000원)</option>
+									<option value="">2시간 (18,000원)</option>
+									<option value="">3시간 (27,000원)</option>
+									<option value="">4시간 (36,000원)</option>
+									<option value="">쌍둥이 1시간 (12,000원)</option>
+									<option value="">쌍둥이 2시간 (24,000원)</option>
+									<option value="">쌍둥이 3시간 (36,000원)</option>
+									<option value="">쌍둥이 4시간 (48,000원)</option>
+								</select>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<p class="charge_txt1">지점마다 금액이다를수 있습니다.</p>
+
+				<ul class="charge_join">
+					<li><input type="button" value="계산해보기" onclick=""/></li>
+					<li><input type="button" value="닫기" onclick=""/></li>
+				</ul>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

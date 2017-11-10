@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.footerBG{background-color:#f5f5f5; padding:35px 0 25px 0; min-width:1000px;}
+footer{width:1000px; margin:0 auto; overflow:hidden;}
+footer h1{float:left; margin-right:42px}
+footer ul{float:left; margin-bottom:20px;}
+footer ul li{float:left; margin-right:35px;}
+
+address{float: left; font-size: 13px; line-height: 20px; margin-bottom: 10px;}
+
+.copy{float: left; letter-spacing: normal; font-size: 11px;}
+

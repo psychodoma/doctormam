@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body,div,h4,h3,h2,h1,ul,li,dl,dt,dd,table,tbody,thead,th,td,a,img,p,form,fieldset,legend,label,input,select,ul,li,span,strong,address,footer,textarea{margin:0; padding:0;}
+
+body,select,input,textarea{
+	font-family:'Nanum Barun Gothic','Questrial',sans-serif;
+	color:#333;
+	font-size:12px;
+	letter-spacing: -1px;
+}
+
+select,input,img{vertical-align:middle;}
+
+label{vertical-align:0.5px;}
+
+img,fieldset{border:0 none;}
+
+ul{list-style:none;}
+
+a:link,a:visited{text-decoration:none; color:#333;}
+a:hover,a:active{text-decoration:underline; color:#0066ff;}
+
+a.roll img.over { display: none;}
+a.roll:hover img { display: none;}
+a.roll:hover img.over { display: inline;}
+
+legend,caption,.hide{
+	width:1px;  
+	height:1px;
+	font-size:0;
+	line-height:0;
+	overflow:hidden;
+	visibility:hidden;
+	position:absolute;  /*화면 밖았으로 빼버리자*/
+	left:-999px;
+}
+
+table{border-collapse:collapse;}
+
+address{font-style:normal;}
+
+h1, h2, h3, h4{font-size:1em;} /*기본으로 그냥 박자*/

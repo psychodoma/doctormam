@@ -1,0 +1,13 @@
+2017-05-18 16:03:27==>https://www.allthegate.com/payment/mobilev2/transaction/ansim.jsp?storeID=&trackingID=b2bc5ceb944589b8c71e88918918af87a5001ee4ac3817815293b037128f657e&type=approve&
+2017-05-18 16:03:28==>
+
+
+
+
+
+
+
+
+
+{"message":"ANSIM 응답","status":"ok","data":{"AdmTime":"20170518160328","EscrowSendNo":"","DealWon":"000001760000","DealNo":"538167","Success":"y","Code":"0610","CardType2":"0900","StoreId":"khjinnurse","OrderNo":"2548","CardName":"롯데","SendNo":"538167","CardName2":"롯데","CardType":"0900","AdmNo":"43705310","AgentNo":"9157057001","PayType":"card","CardPartialMm":"3","DeviId":"9000400001","OrdNo":"2548","Amt":"1760000","EscrowYn":"","NetCancelId":"AEGIS_VISAkhjinnurse_20170518160248537481","AuthTy":"card","SubTy":"visa3d"},"code":"200"}
+
