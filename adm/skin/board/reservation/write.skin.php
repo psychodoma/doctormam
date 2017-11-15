@@ -70,7 +70,7 @@ if($c != 0){
                 var result = confirm("문자수신 체크 제거 시 기존 수신정보는 사라집니다.");
 
                 if(result){
-                    
+
                 }else{
                     $(this).prop('checked', true);
                 }
@@ -283,7 +283,7 @@ if($c != 0){
  									<input type="text" name="wr_service_start" value="<?php echo $write['service_start']?>" id="wr_service_start" class="frm_input mr5" size="10" readonly maxlength="20">
  								</p>
  								<p style="display: inline-block;">
- 									<label for="wr_service_end" style="font-weight:bold; margin-right:5px;">종료일 : </label> 
+ 									<label for="wr_service_end" style="font-weight:bold; margin-right:5px;">종료일 : </label>
  									<input type="text" name="wr_end_service" value="<?php echo $write['end_service']?>" id="wr_end_service" class="frm_input mr5" size="10" readonly maxlength="20">
  								</p>  -->
 
@@ -300,7 +300,7 @@ if($c != 0){
 					<p><?php echo radio_selected("wr_service_period","8",$write['service_period'],"8주"); ?></p> -->
 
 						<?$arr = array("1주","2주","3주","4주","5주","6주","7주","8주","9주","10주","11주","12주","13주","14주","15주","16주"); ?>
-						
+
 						<?=get_selectbox('wr_service_period',$arr, $write['service_period']);?>
 
 				</div>
@@ -368,7 +368,7 @@ if($c != 0){
             </td>
         </tr>
 
-		
+
         <tr>
             <th>사은품</th>
             <td class='pro_message1'>
@@ -381,7 +381,7 @@ if($c != 0){
             </td>
         </tr>
 
-	
+
 
 
 
@@ -441,14 +441,16 @@ if($c != 0){
         <tr>
             <th scope="row">기본요금</th>
             <td>
-				<input type='text' name="wr_3"  value="<?php echo $write['wr_3'] ?>" id="wr_deposit" style="text-align: right; padding-right:5px; margin-right:5px;" onkeyup="addComma(this)" class="frm_input wr_deposit2" size="10" maxlength="20">원
+				<input type='text' name="wr_3"  value="<?php echo $write['wr_3'] ?>" id="wr_3" style="text-align: right; padding-right:5px; margin-right:5px;" onkeyup="addComma(this)" class="frm_input wr_deposit2" size="10" maxlength="20">원
             </td>
         </tr>
 
         <tr>
             <th scope="row">추가요금</th>
-            <td>	
-				<input type='text' name="wr_4"  value="<?php echo $write['wr_4'] ?>" id="wr_deposit" style="text-align: right; padding-right:5px; margin-right:5px;" onkeyup="addComma(this)" class="frm_input wr_deposit3" size="10" maxlength="20">원
+            <td>
+				<input type='text' name="wr_4"  value="<?php echo $write['wr_4'] ?>" id="wr_4" style="text-align: right; padding-right:5px; margin-right:5px;" onkeyup="addComma(this)" class="frm_input wr_deposit3" size="10" maxlength="20">원
+        <br><br><font style='color:red;'> * 예약금, 기본요금, 추가요금 수정 후 반드시 저장을 해주시기 바랍니다. </font>
+
             </td>
         </tr>
 
@@ -587,10 +589,10 @@ if($c != 0){
 
 
 
-				
-				
 
-			
+
+
+
         <?php if ($is_guest) { //자동등록방지  ?>
         <tr>
             <th scope="row">자동등록방지</th>
@@ -621,7 +623,7 @@ if($c != 0){
 $(function(){
 
 	$('.com_btn').click(function(){
-		if (confirm("잔액 입금 완료를 확인하시겠습니까? 확인 후 더이상 수정이 불가능합니다.") == true){    
+		if (confirm("잔액 입금 완료를 확인하시겠습니까? 확인 후 더이상 수정이 불가능합니다.") == true){
 			$.ajax({
 				url: "/ajax.reservatopm_com.php",
                 data: {
@@ -641,11 +643,11 @@ $(function(){
 					  $('.wr_deposit5_td').css('color','#333');
 					  $('.wr_deposit5_td').css('font-size','14px');
 					  $('.wr_deposit5_td').html(s+" <span style='color:#333; font-size:12px;' >잔액 입금 완료를 하셨습니다.</span>");
-					  
+
 
 				}
 			})
-		}else{  
+		}else{
 			return;
 		}
 
@@ -667,17 +669,17 @@ $(function(){
             return false;
         }
 
-    })  
+    })
 
 //$('#wr_deposit').change();
 
 	$('.wr_deposit1').change(function(){
 		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
 		var wr_5 = $.fn.appendComma( $.fn.remains() );
-	
+
 		$('.wr_deposit4').html(wr_amount+" 원");
 		$('.wr_deposit5').html(wr_5+" 원");
-		
+
 		$('#wr_amount').val(wr_amount);
 		$('#wr_5').val(wr_5);
 	})
@@ -685,10 +687,10 @@ $(function(){
 	$('.wr_deposit2').change(function(){
 		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
 		var wr_5 = $.fn.appendComma( $.fn.remains() );
-	
+
 		$('.wr_deposit4').html(wr_amount+" 원");
 		$('.wr_deposit5').html(wr_5+" 원");
-		
+
 		$('#wr_amount').val(wr_amount);
 		$('#wr_5').val(wr_5);
 	})
@@ -696,10 +698,10 @@ $(function(){
 	$('.wr_deposit3').change(function(){
 		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
 		var wr_5 = $.fn.appendComma( $.fn.remains() );
-	
+
 		$('.wr_deposit4').html(wr_amount+" 원");
 		$('.wr_deposit5').html(wr_5+" 원");
-		
+
 		$('#wr_amount').val(wr_amount);
 		$('#wr_5').val(wr_5);
 	})
@@ -737,7 +739,7 @@ $(function(){
 			}
 
 		}else{
-	
+
 			if( val.toString().length%3 == 1 ){
 				return $.fn.arrayComma( val.toString(),2, 0)
 			}else if( val.toString().length%3 == 2 ){
@@ -754,12 +756,12 @@ $(function(){
 		var str = "";
 
 		if(ck == 1){
-	
+
 			for( var i = 0; i < arr.length; i++ ){
 				str += arr[i];
 				if(i%3 == num && i != arr.length-1){
 					str += ",";
-				}	
+				}
 			}
 			return str;
 
@@ -771,11 +773,11 @@ $(function(){
 				str += arr[i];
 				if(i%3 == num && i != arr.length-1){
 					str += ",";
-				}	
+				}
 			}
 			return "-"+str;
 
-		
+
 		}
 	}
 
@@ -828,6 +830,12 @@ $(function(){
             $("#check_confirm").val("");
         }
 		function copy_w(){
+      $("#wr_deposit").val(0);
+      $("#wr_3").val(0);
+      $("#wr_4").val(0);
+      $("#wr_amount").val(0);
+      $("#wr_5").val(0);
+
 			$("#w").val("");
 			$('.wr_link1_a').attr('value','관리자 복사');
 			$("#fwrite").submit();

@@ -11,7 +11,7 @@ if($bo_table != "reservation" || empty($wr_id)){
     //
     ///////////////////////////////////////////////////////
 
-    $amt = str_replace(",","",$write["wr_amount"]) ;
+    $amt = str_replace(",","",$write["wr_5"]) ;
     $dutyfree = 0; //면세 금액 (amt 중 면세 금액 설정)
     $store_id = "khjinnurse";
 
