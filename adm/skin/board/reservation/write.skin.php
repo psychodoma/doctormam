@@ -1,6 +1,5 @@
 <?php
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
-
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0);
 add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
@@ -622,6 +621,43 @@ if($c != 0){
     <script>
 $(function(){
 
+
+  $('.wr_deposit1').change(function(){
+		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
+		var wr_5 = $.fn.appendComma( $.fn.remains() );
+
+		$('.wr_deposit4').html(wr_amount+" 원");
+		$('.wr_deposit5').html(wr_5+" 원");
+
+		$('#wr_amount').val(wr_amount);
+		$('#wr_5').val(wr_5);
+	})
+
+	$('.wr_deposit2').change(function(){
+		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
+		var wr_5 = $.fn.appendComma( $.fn.remains() );
+
+		$('.wr_deposit4').html(wr_amount+" 원");
+		$('.wr_deposit5').html(wr_5+" 원");
+
+		$('#wr_amount').val(wr_amount);
+		$('#wr_5').val(wr_5);
+	})
+
+	$('.wr_deposit3').change(function(){
+		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
+		var wr_5 = $.fn.appendComma( $.fn.remains() );
+
+		$('.wr_deposit4').html(wr_amount+" 원");
+		$('.wr_deposit5').html(wr_5+" 원");
+
+		$('#wr_amount').val(wr_amount);
+		$('#wr_5').val(wr_5);
+	})
+
+
+
+
 	$('.com_btn').click(function(){
 		if (confirm("잔액 입금 완료를 확인하시겠습니까? 확인 후 더이상 수정이 불가능합니다.") == true){
 			$.ajax({
@@ -751,6 +787,7 @@ $(function(){
 
 		}
 	}
+
 
 	$.fn.arrayComma = function(arr, num, ck){
 		var str = "";
@@ -990,6 +1027,40 @@ function sms5_chk_send(type)
 }
     function fwrite_submit(f)
     {
+
+
+    		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
+    		var wr_5 = $.fn.appendComma( $.fn.remains() );
+
+    		$('.wr_deposit4').html(wr_amount+" 원");
+    		$('.wr_deposit5').html(wr_5+" 원");
+
+    		$('#wr_amount').val(wr_amount);
+    		$('#wr_5').val(wr_5);
+
+
+
+    		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
+    		var wr_5 = $.fn.appendComma( $.fn.remains() );
+
+    		$('.wr_deposit4').html(wr_amount+" 원");
+    		$('.wr_deposit5').html(wr_5+" 원");
+
+    		$('#wr_amount').val(wr_amount);
+    		$('#wr_5').val(wr_5);
+
+
+
+    		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
+    		var wr_5 = $.fn.appendComma( $.fn.remains() );
+
+    		$('.wr_deposit4').html(wr_amount+" 원");
+    		$('.wr_deposit5').html(wr_5+" 원");
+
+    		$('#wr_amount').val(wr_amount);
+    		$('#wr_5').val(wr_5);
+
+
 
         if($("#check_confirm").val() == ""){
             alert("회원체크를 해주세요");
