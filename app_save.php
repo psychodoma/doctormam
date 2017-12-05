@@ -31,10 +31,11 @@ if($result["signed_name"])
     alert("이미 동의하신 계약서에 동의할수없습니다.");
 
 $date_str = "20".$_REQUEST["date_1"].$_REQUEST["date_2"]."-".$_REQUEST["date_3"]."-".$_REQUEST["date_4"];
-$sql = "update g5_write_reservation set 
+$sql = "update g5_write_reservation set
           signed_date= '".$date_str ."'
         , signed_name= '".$_REQUEST["name_1"]."'
         , signed_datetime= NOW()
+        , signed_type = '".$_REQUEST["signed_type"]."'
          where wr_id = '".$_REQUEST["app_id"]."'";
 
     sql_query($sql);

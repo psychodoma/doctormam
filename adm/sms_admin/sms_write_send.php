@@ -158,7 +158,7 @@ $wr_message = conv_unescape_nl($wr_message);
 $SMS = new SMS5;
 
 if($config['cf_sms_type'] == 'LMS') {
-    
+
     $port_setting = get_icode_port_type($config['cf_icode_id'], $config['cf_icode_pw']);
 
     if($port_setting !== false) {
@@ -193,6 +193,9 @@ if($config['cf_sms_type'] == 'LMS') {
 
             if($result) {
                 $result = $SMS->Send();
+                if($_REQUEST['send_sms_type']){
+                  sql_query("update g5_write_reservation set send_sms_".$_REQUEST['send_sms_type']." = now() where wr_id = ".$_REQUEST['wr_fore_key']);
+                }
 
                 if ($result) //SMS 서버에 접속했습니다.
                 {
@@ -259,6 +262,9 @@ if($config['cf_sms_type'] == 'LMS') {
     if ($result)
     {
         $result = $SMS->Send();
+        if($_REQUEST['send_sms_type']){
+          sql_query("update g5_write_reservation set send_sms_".$_REQUEST['send_sms_type']." = now() where wr_id = ".$_REQUEST['wr_fore_key']);
+        }
 
         if ($result) //SMS 서버에 접속했습니다.
         {

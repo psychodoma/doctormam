@@ -20,7 +20,7 @@ if($_REQUEST["branch"]){
 $si = $_REQUEST["si"];
 if(!empty($_REQUEST["serach_branch"])){
     //$result_branch = sql_fetch("select * from g5_member where mb_addr1 like '%".$_REQUEST["serach_branch"]."%' limit 0,1"); // 수정전
-	$result_branch = sql_fetch("select * from g5_member where mb_branch like '%".$_REQUEST["serach_branch"]."%' && mb_level = 7 limit 0,1"); // 수정후 
+	$result_branch = sql_fetch("select * from g5_member where mb_branch like '%".$_REQUEST["serach_branch"]."%' && mb_level = 7 limit 0,1"); // 수정후
     if(!empty($result_branch["mb_id"])){
         $mb_id = $result_branch["mb_id"];
     }
@@ -322,51 +322,109 @@ include_once(G5_PATH.'/head.php');
 								<div class="sub4_0_tc">
 									<p class="sub4_0_tc_txt1"></p>
 
-									<table summary="주,내용,프리미엄,명품" class="sub4_0_table">
+                  <table summary="주,내용,프리미엄,명품" class="sub4_0_table">
 										<caption>교육과정</caption>
 										<colgroup>
-											<col width="21%"/>
-											<col width="20%"/>
-											<col width="20%"/>
-											<col width="*%"/>
+											<col />
+											<col />
+											<col />
+											<col />
 										</colgroup>
 										<thead>
 										<tr>
-											<th scope="col" colspan='4'>표준형</th>
+											<th scope="col" rowspan="2" colspan="2" style='width:16%;' >-</th>
+                      <th scope="col" colspan="2" style='width:28%;' >단축형</th>
+                      <th scope="col" colspan="2" style='width:28%;' >표준형</th>
+                      <th scope="col" colspan="2" style='width:28%;' >연장형</th>
 										</tr>
+
+                    <tr>
+                        <th scope="row"><label for="basic_subject">기간</label></th>
+                        <th scope="row"><label for="basic_subject">이용요금</label></th>
+                        <th scope="row"><label for="basic_subject">기간</label></th>
+                        <th scope="row"><label for="basic_subject">이용요금</label></th>
+                        <th scope="row"><label for="basic_subject">기간</label></th>
+                        <th scope="row"><label for="basic_subject">이용요금</label></th>
+                    </tr>
+
 										</thead>
 										<tbody>
 
 
 
-										<tr>
-											<td style='background: url("http://cdn.zetawiki.com/png/backslash.png"); background-size: 100% 100%; text-align: left;'><div style='text-align:right; padding-right:0px;'>태아유형  </div>출산순위</td>
-											<td>단태아(기간)</td>
-											<td>쌍생아</td>
-											<td>삼태아이상/중증장애산모</td>
-										</tr>
 
 
-										<tr>
-											<td>첫째</td>
-											<td>890,000(2주)</td>
-											<td style='background:#eee;' ></td>
-											<td rowspan='3'>2,280,000(4주)</td>
-										</tr>
+                      <!-- 단태아  2017-12-04 김지환 -->
+                      <tr>
+                				<td class="adm_char_td t_strong" rowspan="3">단태아</td>
+                        <td class="adm_char_td t_strong">첫째</td>
+                        <td class="adm_char_td">5일</td>
+                        <td class=""><?=$fee['dan_dan_1_5']?></td>
+                        <td class="adm_char_td">10일</td>
+                        <td class=""><?=$fee['pyo_dan_1_10']?></td>
+                        <td class="adm_char_td">15일</td>
+                        <td class=""><?=$fee['yeon_dan_1_15']?></td>
+                			</tr>
+
+                      <tr>
+                        <td class="adm_char_td t_strong">둘째</td>
+                        <td class="adm_char_td">10일</td>
+                        <td class=""><?=$fee['dan_dan_2_10']?></td>
+                        <td class="adm_char_td">15일</td>
+                        <td class=""><?=$fee['pyo_dan_2_15']?></td>
+                        <td class="adm_char_td">10일</td>
+                        <td class=""><?=$fee['yeon_dan_2_10']?></td>
+                			</tr>
+
+                      <tr>
+                        <td class="adm_char_td t_strong">셋째</td>
+                        <td class="adm_char_td">15일</td>
+                        <td class=""><?=$fee['dan_dan_3_15']?></td>
+                        <td class="adm_char_td">10일</td>
+                        <td class=""><?=$fee['pyo_dan_3_10']?></td>
+                        <td class="adm_char_td">15일</td>
+                        <td class=""><?=$fee['yeon_dan_3_15']?></td>
+                			</tr>
+                      <!-- 단태아 끝 -->
 
 
-										<tr>
-											<td>둘째</td>
-											<td>1,335,000(3주)</td>
-											<td>1,560,000(3주)</td>
-										</tr>
+                      <!-- 쌍생아  2017-12-04 김지환 -->
+                      <tr>
+                				<td class="adm_char_td t_strong" rowspan="2">쌍생아</td>
+                        <td class="adm_char_td t_strong">둘째</td>
+                        <td class="adm_char_td">10일</td>
+                        <td class=""><?=$fee['dan_twin_2_10']?></td>
+                        <td class="adm_char_td">15일</td>
+                        <td class=""><?=$fee['pyo_twin_2_15']?></td>
+                        <td class="adm_char_td">20일</td>
+                        <td class=""><?=$fee['yeon_twin_2_20']?></td>
+                			</tr>
+
+                      <tr>
+                        <td class="adm_char_td t_strong">셋째</td>
+                        <td class="adm_char_td">15일</td>
+                        <td class=""><?=$fee['dan_twin_3_15']?></td>
+                        <td class="adm_char_td">20일</td>
+                        <td class=""><?=$fee['pyo_twin_3_20']?></td>
+                        <td class="adm_char_td">25일</td>
+                        <td class=""><?=$fee['yeon_twin_3_25']?></td>
+                			</tr>
+                      <!-- 쌍생아 끝 -->
 
 
-										<tr>
-											<td>셋째아이상</td>
-											<td>1,780,000(4주)</td>
-											<td>2,080,000(4주)</td>
-										</tr>
+                      <!-- 삼태아/중증장애인  2017-12-04 김지환 -->
+                      <tr>
+                				<td class="adm_char_td t_strong" colspan="2">삼태아/중증장애인</td>
+                        <td class="adm_char_td">15일</td>
+                        <td class=""><?=$fee['dan_sam_15']?></td>
+                        <td class="adm_char_td">20일</td>
+                        <td class=""><?=$fee['pyo_sam_20']?></td>
+                        <td class="adm_char_td">25일</td>
+                        <td class=""><?=$fee['yeon_sam_25']?></td>
+                			</tr>
+                      <!-- 삼태아/중증장애인 끝 -->
+
+
 
 
 										</tbody>
@@ -682,7 +740,7 @@ include_once(G5_PATH.'/head.php');
                                             </thead>
                                             <tbody>
                     <?php
-                    $names = array("베이직","베스트","프리미엄","명품플러스");
+                    $names = array("알뜰형","일반형","베스트","프리미엄","명품플러스");
                     $add_left = explode("|",$fee["add_left"]);
                     $add_right = explode("|",$fee["add_right"]);
                     for($i=0;$i < count($names);$i++) {
@@ -836,8 +894,8 @@ include_once(G5_PATH.'/head.php');
                                         </table>
                                     </div>
 
-                                                                         <div class="sub4_0_tc">
-                                        <p class="sub4_0_tc_txt1">큰아이 요금제</p>
+                                  <div class="sub4_0_tc">
+                                        <p class="sub4_0_tc_txt1">기타가족 추가요금(1일)</p>
 
                                         <table summary="주,내용,프리미엄,명품" class="sub4_0_table">
                                             <caption>교육과정</caption>
@@ -848,30 +906,36 @@ include_once(G5_PATH.'/head.php');
                                             </colgroup>
                                             <thead>
                                             <tr>
-                                                <th scope="col">비고</th>
-                                                <th scope="col">출퇴근형</th>
-                                                <th scope="col">입주형</th>
+                                              <th scope="row"><label for="elem_subject">비고</label></th>
+                                              <th scope="row"><label for="elem_subject">출퇴근 (알뜰형)</label></th>
+                                              <th scope="row"><label for="elem_subject">출퇴근 (9시~18시)</label></th>
+                                              <th scope="row"><label for="elem_subject">입주형</label></th>
                                             </tr>
                                             </thead>
                                             <tbody>
-                    <?php
-                    $elem_name = array("취학","큰아이<br/>(어린이집,유치원)","큰아이 미취학","큰아이(초등학생)<br/> 또는 어른");
-                    $elem_left = explode("|",$fee["elem_left"]);
-                    $elem_right = explode("|",$fee["elem_right"]);
-                    for($i=0;$i < count($elem_name);$i++) {
 
-                        ?>
-                                            <tr>
-                                                <td class="t_strong"><?php echo $elem_name[$i] ?></td>
-                                                <td><?php echo $elem_left[$i] ?>원</td>
-                                                <td><?php echo $elem_right[$i] ?>원</td>
-                                            </tr>
-                        <?php
-                    }
-                    ?>
+                                            <?php
+                                            $elem_name = array("미취학(상주)","어린이집/유치원","취학(초,중 고생)","성인가족(1인)");
+                                            $elem_left = explode("|",$fee["elem_left"]);
+                                            $elem_right = explode("|",$fee["elem_right"]);
+                                            $elem_mid = explode("|",$fee["elem_mid"]);
+                                            for($i=0;$i < count($elem_name);$i++) {
+                                            ?>
+
+                                              <tr>
+                                                  <td class="t_strong"><?php echo $elem_name[$i] ?></td>
+                                                  <td><?php echo $elem_left[$i] ?>원</td>
+                                                  <td><?php echo $elem_mid[$i] ?>원</td>
+                                                  <td><?php echo $elem_right[$i] ?>원</td>
+                                              </tr>
+
+                                            <?php
+                                            }
+                                            ?>
+
                                             <tr>
                                                 <td class="t_strong">비고</td>
-                                                <td colspan="2">
+                                                <td colspan="3">
                                                     <ul>
                                                         <li><?php echo $fee["elem_info"] ?></li>
                                                     </ul>
@@ -904,7 +968,7 @@ include_once(G5_PATH.'/head.php');
 						</div>
 
 
-                      
+
                     </div><!--sub6_2_c 덩어리 끝 -->
 
 
@@ -915,7 +979,7 @@ include_once(G5_PATH.'/head.php');
         </div><!--subcontent 1000px-->
 
     </div><!--subcont_top 100%-->
-	 
+
 <script>
     function SearchLocation(type,str,ids)
     {

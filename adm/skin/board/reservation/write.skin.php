@@ -530,14 +530,42 @@ if($c != 0){
         <tr>
             <th scope="row"><label for="wr_sms">SMS 보내기</label></th>
             <td class="input_a_0328">
-                <a href="javascript:sms5_chk_send(1);" class="btn_cancel_2 <?php if($write["sms_1"] == "1" ){echo "clicked";}; ?>" >계약서 보내기</a>
-				<a href="javascript:sms5_chk_send(5);" class="btn_cancel_2 <?php if($write["sms_5"] == "1" ){echo "clicked";}; ?>">예약내용 보내기</a>
-				<a href="javascript:sms5_chk_send(6);" class="btn_cancel_2 <?php if($write["sms_6"] == "1" ){echo "clicked";}; ?>">입금확인 보내기</a>
-				<a href="javascript:sms5_chk_send(2);" class="btn_cancel_2 <?php if($write["sms_2"] == "1" ){echo "clicked";}; ?>">관리사 정보 보내기</a>
-				<a href="javascript:sms5_chk_send(3);" class="btn_cancel_2 <?php if($write["sms_3"] == "1" ){echo "clicked";}; ?>">설문조사 보내기</a>
+                <a href="javascript:sms5_chk_send(8);" class="btn_cancel_2 <?php if($write["sms_1"] == "1" ){echo "clicked";}; ?>" >알뜰계약서 보내기</a>
+                <a href="javascript:sms5_chk_send(1);" class="btn_cancel_2 <?php if($write["sms_1"] == "1" ){echo "clicked";}; ?>" >일반계약서 보내기</a>
+        				<a href="javascript:sms5_chk_send(5);" class="btn_cancel_2 <?php if($write["sms_5"] == "1" ){echo "clicked";}; ?>">예약내용 보내기</a>
+        				<a href="javascript:sms5_chk_send(6);" class="btn_cancel_2 <?php if($write["sms_6"] == "1" ){echo "clicked";}; ?>">입금확인 보내기</a>
+        				<a href="javascript:sms5_chk_send(2);" class="btn_cancel_2 <?php if($write["sms_2"] == "1" ){echo "clicked";}; ?>">관리사 정보 보내기</a>
+        				<a href="javascript:sms5_chk_send(3);" class="btn_cancel_2 <?php if($write["sms_3"] == "1" ){echo "clicked";}; ?>">설문조사 보내기</a>
                 <?php if($member["mb_id"] == "drmamhead" || $member["mb_id"] == "admin") {?> <a href="javascript:sms5_chk_send(7);" class="btn_cancel_2 <?php if($write["sms_7"] == "1" ){echo "clicked";}; ?>" >결제 요청 문자</a><?php }?>
+
+                <p style='margin-right: 3px; margin-top:5px; display: inline-block; padding: 3px 0px 6px 0px; border: 0; <?if($write['send_sms_8']) echo "color: #fff; background-color: #444;";?>  width: 110px;  font-size: 11px; text-align: center; text-decoration: none !important; border-radius: 4px; height:17px;' ><?=$write['send_sms_8']?> </p>
+                <p style='margin-right: 3px; margin-top:5px; display: inline-block; padding: 3px 0px 6px 0px; border: 0; <?if($write['send_sms_1']) echo "color: #fff; background-color: #444;";?>  width: 110px;  font-size: 11px; text-align: center; text-decoration: none !important; border-radius: 4px; height:17px;' ><?=$write['send_sms_1']?> </p>
+                <p style='margin-right: 3px; margin-top:5px; display: inline-block; padding: 3px 0px 6px 0px; border: 0; <?if($write['send_sms_5']) echo "color: #fff; background-color: #444;";?>  width: 110px;  font-size: 11px; text-align: center; text-decoration: none !important; border-radius: 4px; height:17px;' ><?=$write['send_sms_5']?> </p>
+                <p style='margin-right: 3px; margin-top:5px; display: inline-block; padding: 3px 0px 6px 0px; border: 0; <?if($write['send_sms_6']) echo "color: #fff; background-color: #444;";?>  width: 110px;  font-size: 11px; text-align: center; text-decoration: none !important; border-radius: 4px; height:17px;' ><?=$write['send_sms_6']?> </p>
+                <p style='margin-right: 3px; margin-top:5px; display: inline-block; padding: 3px 0px 6px 0px; border: 0; <?if($write['send_sms_2']) echo "color: #fff; background-color: #444;";?>  width: 110px;  font-size: 11px; text-align: center; text-decoration: none !important; border-radius: 4px; height:17px;' ><?=$write['send_sms_2']?> </p>
+                <p style='margin-right: 3px; margin-top:5px; display: inline-block; padding: 3px 0px 6px 0px; border: 0; <?if($write['send_sms_3']) echo "color: #fff; background-color: #444;";?>  width: 110px;  font-size: 11px; text-align: center; text-decoration: none !important; border-radius: 4px; height:17px;' ><?=$write['send_sms_3']?> </p>
+                <?php if($member["mb_id"] == "drmamhead" || $member["mb_id"] == "admin") {?>
+                   <p style='margin-right: 3px; margin-top:5px; display: inline-block; padding: 3px 0px 6px 0px; border: 0; <?if($write['send_sms_7']) echo "color: #fff; background-color: #444;";?>  width: 110px;  font-size: 11px; text-align: center; text-decoration: none !important; border-radius: 4px; height:17px;' ><?=$write['send_sms_7']?> </p>
+                <?php }?>
+
             </td>
         </tr>
+
+        <tr>
+            <th scope="row"><label for="wr_sms">이용계약서 작성</label></th>
+            <td class="input_a_0328">
+                <?if($write['signed_name']){?>
+                  <?if(!$write['signed_type']) $write['signed_type'] = "일반형";?>
+                  <div style='padding-bottom:5px;'>계약서 : <?=$write['signed_type']?></div>
+                  <div style='padding-bottom:5px;'>이용자 : <?=$write['signed_name']?></div>
+                  <div style='padding-bottom:5px;'>계약날짜 : <?=$write['signed_date']?></div>
+                <?}else{?>
+                  이용계약서에 사인 하지 않았거나, 보내지 않은 상태입니다.
+                <?}?>
+            </td>
+        </tr>
+
+
         <tr>
             <th scope="row"><label for="wr_app">고객 문서</label></th>
             <td class="input_0328">
@@ -617,6 +645,7 @@ if($c != 0){
         <input type="hidden" name="wr_fore_key" id="wr_fore_key" value="<?php echo $wr_id ?>">
         <input type="hidden" name="wr_fore_type" id="wr_fore_type" value="1">
         <input type="hidden" name="referer_param" id="referer_param" value="<?php echo $_SERVER['QUERY_STRING']; ?>">
+        <input type="hidden" name="send_sms_type" id="send_sms_type">
     </form>
     <script>
 $(function(){
@@ -961,7 +990,10 @@ function sms5_chk_send(type)
 
         if(type == "1"){
             wr_message.value = "닥터맘에 예약해 주셔서 감사합니다. 계약서를 보내드리니 확인하신 후 맨 아래 '동의'에 체크해 주시기 바랍니다. <?php echo G5_URL ?>/app_view.php?app_id=<?php echo $wr_id ?>";
-        }else if(type == "2"){
+        }else if(type == "8"){
+            wr_message.value = "닥터맘에 예약해 주셔서 감사합니다. 계약서를 보내드리니 확인하신 후 맨 아래 '동의'에 체크해 주시기 바랍니다. <?php echo G5_URL ?>/app_view.php?app_id=<?php echo $wr_id ?>&app_ck=1";
+        }
+        else if(type == "2"){
             if($("#manager").val() == ""){
                 alert("관리사 지정을 먼저 해주시기 바랍니다.");
                 return false;
@@ -1010,12 +1042,19 @@ function sms5_chk_send(type)
             return false;
         }
 
+
         if(confirm("문자를 전송하시겠습니까?")){
+
+
 			w = document.body.clientWidth/2 - 200;
 			h = document.body.clientHeight/2 - 100;
 			act = window.open('./sms_admin/sms_ing.php', 'act', 'width=300, height=200, left=' + w + ', top=' + h);
 			act.focus();
 			$("#send_list").val('h,:'+hp_list.value+'/');
+      $("#send_sms_type").val(type);
+
+    //  alert($("#send_sms_type").val());
+
 			$("#send_form").submit();
 		}else{
 			is_sms5_submitted = false;

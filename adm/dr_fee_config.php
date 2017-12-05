@@ -147,11 +147,11 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
                 $good_chidren_fee = explode("|",$fee["good_chidren_fee"]);
 				$good_time_fee = explode("|",$fee["good_time_fee"]);
 			?>
-								
-											
-							
-											
-											
+
+
+
+
+
 			<tr>
 				<td rowspan='2' class="adm_char_td" >1주</td>
 				<td rowspan='2'><input type="text" name="good_work_5d[]" value="<?php echo $good_work_5d[0] ?>" id="good_work_5d" class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"> 원</td>
@@ -206,7 +206,110 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
 
 
 
+  <div class="tbl_frm01_1 tbl_wrap fee_div floatL adm_char" style='float:none; width:100%;'>
+      <table class="adm_char_table">
+          <h2 class="adm_po">일반형(정부지원/바우처) 요금제</h2>
+          <colgroup>
+              <col class="grid_4">
+              <col class="grid_4">
+              <col class="grid_4">
+              <col class="grid_4">
+          </colgroup>
+          <tbody>
+          <tr>
+              <th scope="row" rowspan="2" colspan="2" style='width:16%;'><label for="basic_subject">-</label></th>
+              <th scope="row" colspan="2" style='width:28%;'><label for="basic_subject">단축형</label></th>
+              <th scope="row" colspan="2" style='width:28%;'><label for="basic_subject">표준형</label></th>
+              <th scope="row" colspan="2" style='width:28%;'><label for="basic_subject">연장형</label></th>
+          </tr>
+          <tr>
+              <th scope="row"><label for="basic_subject">기간</label></th>
+              <th scope="row"><label for="basic_subject">이용요금</label></th>
+              <th scope="row"><label for="basic_subject">기간</label></th>
+              <th scope="row"><label for="basic_subject">이용요금</label></th>
+              <th scope="row"><label for="basic_subject">기간</label></th>
+              <th scope="row"><label for="basic_subject">이용요금</label></th>
+          </tr>
 
+
+          <!-- 단태아  2017-12-04 김지환 -->
+          <tr>
+    				<td class="adm_char_td" rowspan="3">단태아</td>
+            <td class="adm_char_td">첫째</td>
+            <td class="adm_char_td">5일</td>
+            <td class=""><input type='text' name='dan_dan_1_5' value='<?=$fee['dan_dan_1_5']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">10일</td>
+            <td class=""><input type='text' name='pyo_dan_1_10' value='<?=$fee['pyo_dan_1_10']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">15일</td>
+            <td class=""><input type='text' name='yeon_dan_1_15' value='<?=$fee['yeon_dan_1_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+    			</tr>
+
+          <tr>
+            <td class="adm_char_td">둘째</td>
+            <td class="adm_char_td">10일</td>
+            <td class=""><input type='text' name='dan_dan_2_10' value='<?=$fee['dan_dan_2_10']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">15일</td>
+            <td class=""><input type='text' name='pyo_dan_2_15' value='<?=$fee['pyo_dan_2_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">10일</td>
+            <td class=""><input type='text' name='yeon_dan_2_10' value='<?=$fee['yeon_dan_2_10']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+    			</tr>
+
+          <tr>
+            <td class="adm_char_td">셋째</td>
+            <td class="adm_char_td">15일</td>
+            <td class=""><input type='text' name='dan_dan_3_15' value='<?=$fee['dan_dan_3_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">10일</td>
+            <td class=""><input type='text' name='pyo_dan_3_10' value='<?=$fee['pyo_dan_3_10']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">15일</td>
+            <td class=""><input type='text' name='yeon_dan_3_15' value='<?=$fee['yeon_dan_3_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+    			</tr>
+          <!-- 단태아 끝 -->
+
+
+          <!-- 쌍생아  2017-12-04 김지환 -->
+          <tr>
+    				<td class="adm_char_td" rowspan="2">쌍생아</td>
+            <td class="adm_char_td">둘째</td>
+            <td class="adm_char_td">10일</td>
+            <td class=""><input type='text' name='dan_twin_2_10' value='<?=$fee['dan_twin_2_10']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">15일</td>
+            <td class=""><input type='text' name='pyo_twin_2_15' value='<?=$fee['pyo_twin_2_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">20일</td>
+            <td class=""><input type='text' name='yeon_twin_2_20' value='<?=$fee['yeon_twin_2_20']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+    			</tr>
+
+          <tr>
+            <td class="adm_char_td">셋째</td>
+            <td class="adm_char_td">15일</td>
+            <td class=""><input type='text' name='dan_twin_3_15' value='<?=$fee['dan_twin_3_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">20일</td>
+            <td class=""><input type='text' name='pyo_twin_3_20' value='<?=$fee['pyo_twin_3_20']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">25일</td>
+            <td class=""><input type='text' name='yeon_twin_3_25' value='<?=$fee['yeon_twin_3_25']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+    			</tr>
+          <!-- 쌍생아 끝 -->
+
+
+          <!-- 삼태아/중증장애인  2017-12-04 김지환 -->
+          <tr>
+    				<td class="adm_char_td" colspan="2">삼태아/중증장애인</td>
+            <td class="adm_char_td">15일</td>
+            <td class=""><input type='text' name='dan_sam_15' value='<?=$fee['dan_sam_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">20일</td>
+            <td class=""><input type='text' name='pyo_sam_20' value='<?=$fee['pyo_sam_20']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+            <td class="adm_char_td">25일</td>
+            <td class=""><input type='text' name='yeon_sam_25' value='<?=$fee['yeon_sam_25']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
+    			</tr>
+          <!-- 삼태아/중증장애인 끝 -->
+
+
+          </tbody>
+      </table>
+  </div>
+
+
+
+  <br><br><br>
 
 
 
@@ -564,6 +667,10 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
                     </tbody>
         </table>
     </div>
+
+    <div style='width:100%; height:1px; border-top:2px solid gray; clear:both; padding-bottom:80px;'></div>
+
+
     <div class="tbl_frm01_1 tbl_wrap fee_div floatL adm_char">
         <table class="adm_char_table">
             <h2 class="adm_po">시간 추가요금(1시간)<h2>
@@ -579,7 +686,7 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
                         <th scope="row"><label for="add_subject">쌍둥이</label></th>
                     </tr>
                     <?php
-                    $names = array("베이직","베스트","프리미엄","명품플러스");
+                    $names = array("알뜰형","일반형","베스트","프리미엄","명품플러스");
                     $add_left = explode("|",$fee["add_left"]);
                     $add_right = explode("|",$fee["add_right"]);
                     for($i=0;$i < count($names);$i++) {
@@ -607,7 +714,7 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
                     </tbody>
         </table>
     </div>
-    <div class="tbl_frm01_1 tbl_wrap fee_div floatL adm_char">
+    <div class="tbl_frm01_1 tbl_wrap fee_div floatR adm_char">
         <table class="adm_char_table">
             <h2 class="adm_po">쌍둥이 요금(1인1일)<h2>
                     <colgroup>
@@ -733,10 +840,11 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
                     </tbody>
         </table>
     </div>
-    <div class="tbl_frm01_1 tbl_wrap fee_div floatR adm_char">
+    <div class="tbl_frm01_1 tbl_wrap fee_div floatL adm_char" style='width:100%;'>
         <table class="adm_char_table">
-            <h2 class="adm_po">큰아이 요금제<h2>
+            <h2 class="adm_po">기타가족(큰아이) 요금제<h2>
                     <colgroup>
+                        <col class="grid_4">
                         <col class="grid_4">
                         <col class="grid_4">
                         <col class="grid_4">
@@ -744,13 +852,15 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
                     <tbody>
                     <tr>
                         <th scope="row"><label for="elem_subject">비고</label></th>
-                        <th scope="row"><label for="elem_subject">출퇴근형</label></th>
+                        <th scope="row"><label for="elem_subject">출퇴근 (알뜰형)</label></th>
+                        <th scope="row"><label for="elem_subject">출퇴근 (9시~18시)</label></th>
                         <th scope="row"><label for="elem_subject">입주형</label></th>
                     </tr>
                     <?php
-                    $elem_name = array("취학","큰아이(어린이집,유치원)","큰아이 미취학","큰아이(초등학생) 또는 어른");
+                    $elem_name = array("미취학(상주)","어린이집/유치원","취학(초,중 고생)","성인가족(1인)");
                     $elem_left = explode("|",$fee["elem_left"]);
                     $elem_right = explode("|",$fee["elem_right"]);
+                    $elem_mid = explode("|",$fee["elem_mid"]);
                     for($i=0;$i < count($elem_name);$i++) {
 
                         ?>
@@ -762,6 +872,12 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
                                        onkeyup="addComma(this)"> 원
                             </td>
                             <td>
+                                <input type="text" name="elem_mid[]" value="<?php echo $elem_mid[$i] ?>"
+                                       id="elem_mid" class="frm_input num_input" size="15" maxlength="12"
+                                       onkeyup="addComma(this)"> 원
+                            </td>
+
+                            <td>
                                 <input type="text" name="elem_right[]" value="<?php echo $elem_right[$i] ?>"
                                        id="elem_right" class="frm_input num_input" size="15" maxlength="12"
                                        onkeyup="addComma(this)"> 원
@@ -772,7 +888,7 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
                     ?>
                     <tr>
                         <th>비고</th>
-                        <td colspan="2"><textarea name="elem_info" class="frm_textarea wd98p"><?php echo $fee["elem_info"] ?></textarea></td>
+                        <td colspan="3"><textarea name="elem_info" class="frm_textarea wd98p"><?php echo $fee["elem_info"] ?></textarea></td>
                     </tr>
                     </tbody>
         </table>

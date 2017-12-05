@@ -41,6 +41,7 @@ $sql_common = "
                 sign_home_6d = '". implode("|",$_POST["sign_home_6d"])."',
                 sign_home_info = '". $_POST["sign_home_info"] . "',
                  elem_left = '". implode("|",$_POST["elem_left"])."',
+								 elem_mid = '". implode("|",$_POST["elem_mid"])."',
                 elem_right= '". implode("|",$_POST["elem_right"])."',
                 elem_info = '". $_POST["elem_info"] . "',
                 add_left = '". implode("|",$_POST["add_left"])."',
@@ -60,7 +61,29 @@ $sql_common = "
                 milk_home_info = '". $_POST["milk_home_info"] . "',
                 thax_left = '". implode("|",$_POST["thax_left"])."',
                 thax_right= '". implode("|",$_POST["thax_right"])."',
-                thax_info = '". $_POST["thax_info"] . "'";
+                thax_info = '". $_POST["thax_info"] . "',
+								dan_dan_1_5 = '". $_POST["dan_dan_1_5"] . "',
+								pyo_dan_1_10 = '". $_POST["pyo_dan_1_10"] . "',
+								yeon_dan_1_15 = '". $_POST["yeon_dan_1_15"] . "',
+								dan_dan_2_10 = '". $_POST["dan_dan_2_10"] . "',
+								pyo_dan_2_15 = '". $_POST["pyo_dan_2_15"] . "',
+								yeon_dan_2_10 = '". $_POST["yeon_dan_2_10"] . "',
+								dan_dan_3_15 = '". $_POST["dan_dan_3_15"] . "',
+								pyo_dan_3_10 = '". $_POST["pyo_dan_3_10"] . "',
+								yeon_dan_3_15 = '". $_POST["yeon_dan_3_15"] . "',
+								dan_twin_2_10 = '". $_POST["dan_twin_2_10"] . "',
+								pyo_twin_2_15 = '". $_POST["pyo_twin_2_15"] . "',
+								yeon_twin_2_20 = '". $_POST["yeon_twin_2_20"] . "',
+								dan_twin_3_15 = '". $_POST["dan_twin_3_15"] . "',
+								pyo_twin_3_20 = '". $_POST["pyo_twin_3_20"] . "',
+								yeon_twin_3_25 = '". $_POST["yeon_twin_3_25"] . "',
+								dan_sam_15 = '". $_POST["dan_sam_15"] . "',
+								pyo_sam_20 = '". $_POST["pyo_sam_20"] . "',
+								yeon_sam_25 = '". $_POST["yeon_sam_25"] . "'
+
+
+
+";
 
 
 if ($w == 'n')
