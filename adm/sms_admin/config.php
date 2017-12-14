@@ -35,7 +35,7 @@ include_once(G5_ADMIN_PATH.'/admin.head.php');
 <?php
 if ($config['cf_sms_use'] == 'icode') { // 아이코드 사용
 ?>
-    <h2 style="text-align:right">아이디:<?php echo $config['cf_icode_id']; ?> 패스워드 : gp3272  잔액 <?php echo number_format($userinfo['coin'])?> 원
+    <h2 style="text-align:right">아이디:<?php echo $config['cf_icode_id']; ?> 패스워드 : dr0406  잔액 <?php echo number_format($userinfo['coin'])?> 원
             <input type="button" value="충전하기" class="btn_frmline_add" onclick="window.open('http://icodekorea.com/company/credit_card_input.php?icode_id=<?php echo $config['cf_icode_id']?>&icode_passwd=<?php echo $config['cf_icode_pw']?>','icode_payment','width=650,height=500')"></h2>
 
 <div class="tbl_frm01 tbl_wrap" >

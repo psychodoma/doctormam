@@ -556,9 +556,9 @@ if($c != 0){
             <td class="input_a_0328">
                 <?if($write['signed_name']){?>
                   <?if(!$write['signed_type']) $write['signed_type'] = "일반형";?>
-                  <div style='padding-bottom:5px;'>계약서 : <?=$write['signed_type']?></div>
+                  <div style='padding-bottom:5px;'>계약방법 : <?=$write['signed_type']?></div>
                   <div style='padding-bottom:5px;'>이용자 : <?=$write['signed_name']?></div>
-                  <div style='padding-bottom:5px;'>계약날짜 : <?=$write['signed_date']?></div>
+                  <div style='padding-bottom:5px;'>계약날짜 : <?=$write['signed_datetime']?></div>
                 <?}else{?>
                   이용계약서에 사인 하지 않았거나, 보내지 않은 상태입니다.
                 <?}?>
@@ -651,7 +651,7 @@ if($c != 0){
 $(function(){
 
 
-  $('.wr_deposit1').change(function(){
+  $('.wr_deposit1').blur(function(){
 		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
 		var wr_5 = $.fn.appendComma( $.fn.remains() );
 
@@ -662,7 +662,7 @@ $(function(){
 		$('#wr_5').val(wr_5);
 	})
 
-	$('.wr_deposit2').change(function(){
+	$('.wr_deposit2').blur(function(){
 		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
 		var wr_5 = $.fn.appendComma( $.fn.remains() );
 
@@ -673,7 +673,7 @@ $(function(){
 		$('#wr_5').val(wr_5);
 	})
 
-	$('.wr_deposit3').change(function(){
+	$('.wr_deposit3').blur(function(){
 		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
 		var wr_5 = $.fn.appendComma( $.fn.remains() );
 
@@ -736,9 +736,9 @@ $(function(){
 
     })
 
-//$('#wr_deposit').change();
+//$('#wr_deposit').blur();
 
-	$('.wr_deposit1').change(function(){
+	$('.wr_deposit1').blur(function(){
 		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
 		var wr_5 = $.fn.appendComma( $.fn.remains() );
 
@@ -749,7 +749,7 @@ $(function(){
 		$('#wr_5').val(wr_5);
 	})
 
-	$('.wr_deposit2').change(function(){
+	$('.wr_deposit2').blur(function(){
 		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
 		var wr_5 = $.fn.appendComma( $.fn.remains() );
 
@@ -760,7 +760,7 @@ $(function(){
 		$('#wr_5').val(wr_5);
 	})
 
-	$('.wr_deposit3').change(function(){
+	$('.wr_deposit3').blur(function(){
 		var wr_amount = $.fn.appendComma( $.fn.totalHop() );
 		var wr_5 = $.fn.appendComma( $.fn.remains() );
 
