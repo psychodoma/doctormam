@@ -250,7 +250,7 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
             <td class=""><input type='text' name='dan_dan_2_10' value='<?=$fee['dan_dan_2_10']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
             <td class="adm_char_td">15일</td>
             <td class=""><input type='text' name='pyo_dan_2_15' value='<?=$fee['pyo_dan_2_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
-            <td class="adm_char_td">10일</td>
+            <td class="adm_char_td">20일</td>
             <td class=""><input type='text' name='yeon_dan_2_10' value='<?=$fee['yeon_dan_2_10']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
     			</tr>
 
@@ -258,9 +258,9 @@ add_javascript(G5_POSTCODE_JS, 0);    //다음 주소 js
             <td class="adm_char_td">셋째</td>
             <td class="adm_char_td">15일</td>
             <td class=""><input type='text' name='dan_dan_3_15' value='<?=$fee['dan_dan_3_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
-            <td class="adm_char_td">10일</td>
+            <td class="adm_char_td">20일</td>
             <td class=""><input type='text' name='pyo_dan_3_10' value='<?=$fee['pyo_dan_3_10']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
-            <td class="adm_char_td">15일</td>
+            <td class="adm_char_td">25일</td>
             <td class=""><input type='text' name='yeon_dan_3_15' value='<?=$fee['yeon_dan_3_15']?>' class="frm_input num_input" size="15" maxlength="12" onkeyup="addComma(this)"></td>
     			</tr>
           <!-- 단태아 끝 -->
