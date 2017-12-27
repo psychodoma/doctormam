@@ -530,7 +530,7 @@ if($c != 0){
         <tr>
             <th scope="row"><label for="wr_sms">SMS 보내기</label></th>
             <td class="input_a_0328">
-                <a href="javascript:sms5_chk_send(8);" class="btn_cancel_2 <?php if($write["sms_1"] == "1" ){echo "clicked";}; ?>" >알뜰계약서 보내기</a>
+                <a href="javascript:sms5_chk_send(8);" class="btn_cancel_2 <?php if($write["sms_8"] == "1" ){echo "clicked";}; ?>" >알뜰계약서 보내기</a>
                 <a href="javascript:sms5_chk_send(1);" class="btn_cancel_2 <?php if($write["sms_1"] == "1" ){echo "clicked";}; ?>" >일반계약서 보내기</a>
         				<a href="javascript:sms5_chk_send(5);" class="btn_cancel_2 <?php if($write["sms_5"] == "1" ){echo "clicked";}; ?>">예약내용 보내기</a>
         				<a href="javascript:sms5_chk_send(6);" class="btn_cancel_2 <?php if($write["sms_6"] == "1" ){echo "clicked";}; ?>">입금확인 보내기</a>
